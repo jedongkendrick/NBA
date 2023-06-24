@@ -5,7 +5,7 @@ use app\models\Roster; // Assuming Roasters is the model class for the rosters t
 
 $this->title = 'Draft Board';
 $this->params['breadcrumbs'][] = $this->title;
-//TEST
+
 ?>
 
 <h1><?= Html::encode($this->title) ?></h1>
