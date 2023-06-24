@@ -10,7 +10,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <h1><?= Html::encode($this->title) ?></h1>
 
-<table class="draft-board">
+<table class="draft-board" cellpadding="11">
     <?php
     $teamCount = count($teams);
     $teamsPerColumn = ceil($teamCount / 3);

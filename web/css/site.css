@@ -203,10 +203,14 @@ text-align: center;
 }
 
 .player-name{
-  width: 12.9em;
+  width: 11.9em;
   padding-left: 1em;
   font-size: 1.3em;
 }
 .team-info{
     border: 2.5px solid;
+}
+
+.draft-board{
+    margin:0 auto;
 }
