@@ -5,26 +5,22 @@ use yii\helpers\Html;
 // Assuming $newsArticles is an array of news article data fetched from the database
 ?>
 <table class="table">
-    <thead>
-        <tr>
-            <th>Team Logo</th>
-            <th>Story</th>
-        </tr>
-    </thead>
     <tbody>
     <?php foreach ($newsArticles as $news): ?>
         <tr>
-            <td>
+            <td style='vertical-align:middle;'>
                 <?php
                 // Accessing the team logo using the joined model
                 $logoPath = Yii::getAlias('@web/assets/images/team-images/') . $news->team->logo.'_logo.svg';
                 echo Html::img($logoPath, ['class' => 'article-logo']);
                 ?>
             </td>
-            <td>
+            <td style='font-family:arial!important;vertical-align:middle;padding:20px;'>
+            <!-- <div style='text-align:left;'><?= Html::encode(substr($news->date_entered,0,10)) ?></div> -->
                 <?= Html::encode($news->story) ?>
-                <br>
-                <div style='text-align:right;'><?= Html::encode($news->date_entered) ?></div>
+            </td>
+            <td style="vertical-align: middle;font-size: 2.5em;text-transform:uppercase;">
+                <p><?= html::encode($news->type) ?></p>
             </td>
         </tr>
     <?php endforeach; ?>
