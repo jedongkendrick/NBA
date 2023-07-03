@@ -1,6 +1,7 @@
 <?php
 use yii\helpers\Html;
 use yii\helpers\Url;
+use app\helpers\HelperFunctions;
 
 $this->params['breadcrumbs'][] = 'TEAM INDEX';
 ?>
@@ -24,7 +25,14 @@ $this->params['breadcrumbs'][] = 'TEAM INDEX';
                     ['alt' => $team->name, 'style' => 'width: 10em;', 'class' => 'team-logo']
                 ),
                 Url::to(['roster', 'team_id' => $team->id])
-            ) ?>
+
+
+            ) ;
+
+             $count = HelperFunctions::countPlayersInTeam($team->id);
+
+             ?>
+            <div class="roster-count" >Roster Count: <?= Html::encode($count); ?></div>
         </div>
 
         <?php
@@ -35,3 +43,7 @@ $this->params['breadcrumbs'][] = 'TEAM INDEX';
         <?php endif; ?>
     <?php endforeach; ?>
 </div>
+
+<script>
+
+</script>

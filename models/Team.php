@@ -3,6 +3,7 @@
 namespace app\models;
 
 use yii\db\ActiveRecord;
+use app\helpers\HelperFunctions;
 
 class Team extends ActiveRecord
 {

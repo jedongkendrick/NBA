@@ -37,6 +37,7 @@ class ArticleController extends Controller
         $players = Roster::find()
             ->select(['id', 'name'])
             ->where(['team_id' => $teamId])
+            ->andWhere(['<>', 'retire', 1]) 
             ->asArray()
             ->all();
     

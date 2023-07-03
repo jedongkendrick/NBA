@@ -15,9 +15,9 @@ class Article extends ActiveRecord
     public function rules()
     {
         return [
-            [['team_id', 'player_id', 'story', 'type','title'], 'required'],
+            [['story', 'type','title'], 'required'],
             [['team_id'], 'integer'],
-            [['story', 'type'], 'string'],
+            [['story', 'type','team_id', 'player_id'], 'string'],
         ];
     }
 

@@ -35,6 +35,8 @@ $this->params['breadcrumbs'][] = 'Edit';
 
         <?= $form->field($model, 'fa')->checkbox() ?>
 
+        <?= $form->field($model, 'retire')->checkbox() ?>
+
         <?= $form->field($model, 'contract')->textInput(['maxlength' => true]) ?>
 
         <?= $form->field($model, 'draft_year')->textInput(['maxlength' => true]) ?>

@@ -17,7 +17,7 @@ class Player extends ActiveRecord
         return [
             [['name', 'number', 'position', 'height'], 'required'],
             [['number', 'years', 'draft_year'], 'integer'],
-            [['fa'], 'boolean'],
+            [['fa','retire'], 'boolean'],
             [['team_id', 'drafted_by', 'name', 'position', 'height', 'school', 'contract', 'draft'], 'string', 'max' => 255]
         ];
     }

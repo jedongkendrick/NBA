@@ -11,6 +11,7 @@ class FreeAgencyController extends Controller
     {
         $rosters = Roster::find()
             ->where(['fa' => 1])
+            ->andWhere(['<>', 'retire', 1]) 
             ->joinWith('team')
             ->all();
 

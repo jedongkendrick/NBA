@@ -11,8 +11,13 @@ use yii\helpers\Html;
             <td style='vertical-align:middle;'>
                 <?php
                 // Accessing the team logo using the joined model
-                $logoPath = Yii::getAlias('@web/assets/images/team-images/') . $news->team->logo.'_logo.svg';
-                echo Html::img($logoPath, ['class' => 'article-logo']);
+                if(!isset($news->team->logo)){
+                    $logoPath = Yii::getAlias('@web/assets/images/team-images/').'NBA_logo.png';
+                    echo Html::img($logoPath, ['class' => 'article-logo-NBA']);
+                } else{
+                    $logoPath = Yii::getAlias('@web/assets/images/team-images/') . $news->team->logo.'_logo.svg';
+                    echo Html::img($logoPath, ['class' => 'article-logo']);
+                }
                 ?>
             </td>
             <td style='font-family:arial!important;vertical-align:middle;padding:20px;'>
