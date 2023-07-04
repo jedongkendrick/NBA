@@ -1,6 +1,7 @@
 <?php
 
 use yii\helpers\Html;
+use yii\widgets\LinkPager;
 
 // Assuming $newsArticles is an array of news article data fetched from the database
 ?>
@@ -31,3 +32,8 @@ use yii\helpers\Html;
     <?php endforeach; ?>
     </tbody>
 </table>
+
+<?= LinkPager::widget([
+    'pagination' => $pagination,
+    'linkOptions' => ['class' => 'page-link', 'style' => 'padding: 15px;'], 
+]) ?>
