@@ -23,6 +23,7 @@ use yii\widgets\LinkPager;
             </td>
             <td style='font-family:arial!important;vertical-align:middle;padding:20px;'>
             <!-- <div style='text-align:left;'><?= Html::encode(substr($news->date_entered,0,10)) ?></div> -->
+                <b><?= Html::encode($news->title) ?></b><br>
                 <?= Html::encode($news->story) ?>
             </td>
             <td style="vertical-align: middle;font-size: 2.5em;text-transform:uppercase;">
