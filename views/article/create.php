@@ -60,7 +60,7 @@ $(function() {
        
         <?= $form->field($model, 'player_id')->dropDownList([], ['id' => 'article-player_id', 'prompt' => 'Select Team First']) ?>
 
-        <?= $form->field($model, 'type')->dropDownList(['Signing' => 'Signing', 'Story' => 'Story', 'Trade' => 'Trade', 'Release' => 'Release'], ['prompt' => 'Select Type']) ?>
+        <?= $form->field($model, 'type')->dropDownList(['Signing' => 'Signing', 'Update' => 'Update', 'Trade' => 'Trade', 'Release' => 'Release'], ['prompt' => 'Select Type']) ?>
 
         <?= $form->field($model, 'story')->textarea(['rows' => 6]) ?>
 
