@@ -29,7 +29,7 @@ CREATE TABLE `article` (
   `date_entered` varchar(25) DEFAULT NULL,
   `title` varchar(150) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=68 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=76 DEFAULT CHARSET=latin1;
 
 /*Data for the table `article` */
 
@@ -98,7 +98,15 @@ insert  into `article`(`id`,`team_id`,`player_id`,`story`,`type`,`date_entered`,
 (64,'18','260','The Denver Nuggets have landed a major free agent, signing guard Sandi Cardinoza to a three-year, $90 million deal, according to league sources. Cardinoza, who was previously with the Los Angeles Clippers, is a 6-foot-4 guard who is known for his scoring ability and his ability to create his own shot. He averaged 20.5 points, 4.5 rebounds, and 4.0 assists per game last season for the Clippers. The Nuggets are coming off of a championship season, and they are looking to build on that success. Cardinoza is a perfect fit for the Nuggets\' system. He is a scorer who can create his own shot, and he is also a good defender. He will be a major contributor to the Nuggets\' offense, and he will also help them improve their defense.\r\n\r\n\"We\'re thrilled to have Sandi join our team,\" said Nuggets general manager Tim Connelly. \"He\'s a dynamic scorer who can create his own shot, and he\'s also a good defender. He\'s a perfect fit for our system, and he\'s going to be a major contributor to our team.\"\r\n\r\nCardinoza is excited to join the Nuggets. \"I\'m excited to be a part of this team,\" he said. \r\n\"The Nuggets are a championship team, and I\'m looking forward to helping them defend their title.  They\'re two of the best players in the league, and I\'m excited to learn from them.\"','Signing','2023-07-05 07:59:18','Denver Nuggets Land Sandi Cardinoza in Free Agency'),
 (65,'10','184','The Charlotte Hornets have signed free agent guard Mario Reyes to a two-year deal, according to league sources. Reyes, who was previously with the Golden State Warriors, is a 6-foot-5 guard who is known for his scoring ability and his ability to create his own shot. He averaged 19.4 points, 4.5 rebounds, and 3.5 assists per game last season for the Warriors. ','Signing','2023-07-05 08:05:35','Charlotte Hornets Sign Mario Reyes to Two-Year Deal'),
 (66,'29','278','The Golden State Warriors are reportedly interested in acquiring three-time MVP LaMelo Exum in a sign-and-trade deal, according to league sources.  The rumors about the Warriors\' interest in LaMelo Exum have been circulating for a few weeks now. The Warriors have reportedly been in contact with Exum\'s agent, and they are confident that he would be willing to sign a long-term deal with them.','Update','2023-07-05 08:11:13','Warriors Eye Sign-and-Trade Deal for LaMelo Exum'),
-(67,'3','460','The Golden State Warriors\' pursuit of three-time MVP LaMelo Exum has reportedly fallen short, according to league sources. The Bulls were initially interested in a sign-and-trade deal for Exum, but they have since decided that they are not interested in giving up two young players with potential for Exum. There are a few teams that are reportedly interested in Exum. The Los Angeles Lakers, the Miami Heat, and the Brooklyn Nets are all said to be in the mix. The Lakers are looking to add a star player to their roster, and Exum would be a perfect fit. The Heat are also looking to improve their roster, and Exum would be a great addition. The Nets are rebuilding, but they have a lot of cap space, and they could be a potential landing spot for Exum.','Update','2023-07-05 08:14:36','Bulls Not Interested in Sign-and-Trade Deal for LaMelo Exum');
+(67,'3','460','The Golden State Warriors\' pursuit of three-time MVP LaMelo Exum has reportedly fallen short, according to league sources. The Bulls were initially interested in a sign-and-trade deal for Exum, but they have since decided that they are not interested in giving up two young players with potential for Exum. There are a few teams that are reportedly interested in Exum. The Los Angeles Lakers, the Miami Heat, and the Brooklyn Nets are all said to be in the mix. The Lakers are looking to add a star player to their roster, and Exum would be a perfect fit. The Heat are also looking to improve their roster, and Exum would be a great addition. The Nets are rebuilding, but they have a lot of cap space, and they could be a potential landing spot for Exum.','Update','2023-07-05 08:14:36','Bulls Not Interested in Sign-and-Trade Deal for LaMelo Exum'),
+(68,'19','395','The Indiana Pacers have traded Harris Barbo to the Sacramento Kings in exchange for Chris Newsome, Dan Ocampo, and a 2024 draft pick (lottery-protected). The trade is a sign that the Pacers are rebuilding. as they are looking to get younger and more athletic. Newsome is a 6\'9\" forward who averaged 14.3 points per game for the Kings last season. He is a good shooter and defender while Ocampo is averaging 18.5 points and 11.3 rebounds per game.','Trade','2023-07-05 13:29:29','Pacers trade Harris Barbo to the Sacramento Kings.'),
+(69,'8','180','The Atlanta Hawks have agreed to a two-year deal with Raymond Gallego, according to multiple reports. The deal is reportedly worth $10 million. Gallego, who played for the Golden State Warriors last season. He averaged 14.3 points per game while shooting 34.5% from three-point range.\r\n\r\n','Signing','2023-07-05 13:33:01','Raymond Gallego Signs with Atlanta Hawks'),
+(70,'2','515','The Milwaukee Bucks have agreed to a three-year deal with Jeff Laxa, according to multiple reports. The deal is reportedly worth $15 million. Laxa, 24,  played for the Los Angeles Lakers last season. He averaged 6.5 points and 3.2 rebounds per game as a bench player.\r\n\r\n','Signing','2023-07-05 13:39:44','Jeff Laxa Signs with Milwaukee Bucks'),
+(71,'18','95','The Denver Nuggets are actively trying to keep their own free agent Cary Castro. Castro, a 6\'7\" forward, averaged 12.3 points and 5.7 rebounds per game last season. He is a good shooter and defender, and he fits the Nuggets\' timeline perfectly. He is still young and has a lot of potential, and he could be a valuable contributor to the Nuggets\' starting lineup. However, there are other teams that are interested in Castro. The Los Angeles Clippers, the Portland Trailblazers and the Miami Heat are all rumored to be interested in signing him.','Update','2023-07-05 13:43:48','Cary Castro\'s Free Agency Decision'),
+(72,'2','607','The Milwaukee Bucks have agreed to a four-year deal worth $90 million with Ronan Charles, according to multiple reports. Charles, is coming off a breakout season with the Bucks. He averaged 17.3 points, 6.3 assists, and 4.2 rebounds per game, and he was a key member of the Bucks\' team.\r\n\r\nThe Bucks are looking to keep their core together, and Charles is a big part of that core. He is a young, talented player who is still on the rise. He is also a good fit for the Bucks\' system, and he is a valuable member of their team.\r\n\r\n','Signing','2023-07-05 13:51:41','Ronan Charles Stays with Bucks'),
+(73,'14','33','The Los Angeles Lakers have agreed to a one-year deal with January Kho, according to multiple reports. Kho, a 37-year-old forward, is entering his 20th NBA season. He has spent most his career with the Lakers, and he is a fan favorite in Los Angeles.\r\n\r\n','Signing','2023-07-05 13:54:20','January Kho Returns to Lakers'),
+(74,'5','219','Yes, there have been multiple reports that the Detroit Pistons are interested in signing Kiefer Ravena. Ravena has averaged 23.4 points per game in his career. Ravena has not yet made a decision on where he will play next season, but he has expressed interest in both the Pistons and the Minnesota Timberwolves. The Pistons are a rebuilding team that is looking to add young talent, and the Timberwolves are a playoff team that is looking to add a scoring guard.','Update','2023-07-05 13:57:55','Ravena has shown some interest to join the Detroit Pistons as well as the Minnesota Timberwolves.'),
+(75,'5','604','The Boston Celtics have agreed to a four-year, $40 million deal with Daniel Go, according to multiple reports. \r\nSure, here is a fictional NBA insider report about Daniel Go:\r\n\r\nNBA Insider Report\r\n\r\nDaniel Go to Celtics\r\n\r\nThe Boston Celtics have agreed to a four-year, $40 million deal with Daniel Go, according to multiple reports.\r\n\r\nGo, a 26-year-old forward, is coming off a season in which he averaged 11.4 points and 5.6 rebounds per game for the Miami Heat. He is a versatile player who can score from inside and outside, and he is also a good defender.\r\n\r\n','Signing','2023-07-05 14:00:51','Daniel Go to Celtics');
 
 /*Table structure for table `draft_order` */
 
@@ -549,7 +557,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (30,'Bryan Santos','1','PG','6-2','3','Far Eastern University','','','10',0,0,'12.4','3.2','4.1','1.4','0.9','BryanSantos','1',NULL,NULL,NULL,NULL,1,'BSaint','0',0),
 (31,'Mark Glen','9','SG','6-5','10','CW University','','','13',0,0,'8.3','3.0','8.4','0.1','1.1','MGlen','4',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (32,'Mark Dulos','34','SG','6-7','7','Lawson High','','','12',1,0,'8.0','2.0','1.5','0.6','0.9','MDulos','0',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
-(33,'January Kho','5','PF','6-10','14','University of St. Thomas','','','19',1,0,'5.5','3.2','1.4','0.1','0.8','JKho','0',NULL,NULL,NULL,NULL,NULL,'ichigatsu','0',0),
+(33,'January Kho','5','PF','6-10','14','University of St. Thomas','','','19',0,0,'5.5','3.2','1.4','0.1','0.8','JKho','1',NULL,NULL,NULL,NULL,NULL,'ichigatsu','0',0),
 (34,'Eugene Magno','13','SG','6-4','29','National University','','','10',1,0,'7.9','3.4','2.2','0.9','0.5','EMagno','0',NULL,NULL,NULL,NULL,NULL,'yusukemagno','0',0),
 (35,'Jake Villaflor','17','SF','6-8','0','North State','','','14',1,0,'8.4','2.1','1.5','0.9','0.5','JVillaflor','0',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (36,'Edison Tam','21','PF','6-9','26','Ateneo University','','','11',0,0,'10.0','10.1','2.8','1.7','1.4','ETam','1',NULL,NULL,NULL,NULL,NULL,'editam','0',0),
@@ -689,7 +697,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (177,'Jason Sia','54','C','6-11','0','CKHS','','','16',1,0,'11.3','8.6','2.9','0.8','2.5','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (178,'Mark Tam','10','SF','6-5','29','Cardinals','','','17',1,0,'9.3','2.8','0.5','0.3','0.5','MarkTam','0',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (179,'JR Sy','33','PG','6-0','0','University of St Thomas','','','11',0,0,'12.0','4.2','4.9','2.8','2.6','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
-(180,'Raymond Gallego','14','PG','6-1','29','South Academy','','','10',1,0,'12.3','2.5','3.6','1.9','0.5','RGallego','0',NULL,NULL,NULL,NULL,NULL,'TontonRaymond','0',0),
+(180,'Raymond Gallego','14','PG','6-1','8','South Academy','','','10',0,0,'12.3','2.5','3.6','1.9','0.5','RGallego','2',NULL,NULL,NULL,NULL,NULL,'TontonRaymond','0',0),
 (181,'Bryan Marcos','44','C','7-0','2','Saint Lucy','','','16',1,0,'9.8','5.9','1.9','0.2','1.6','BMarcos','0',2007,NULL,16,NULL,NULL,NULL,'0',0),
 (182,'Michael Gotauco','78','SF','6-5','24','Tionglian China','','','10',1,0,'9.9','4.3','3.2','1.7','0.3','MGotauco','0',NULL,NULL,NULL,NULL,NULL,'MikG','0',0),
 (183,'Eulysses Dacera','30','SG','6-4','25','Broadway State','','','14',1,0,'2.5','1.3','1.1','0.1','0.0','EDacera','0',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
@@ -840,7 +848,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (338,'JC Delmundo','8','PF','6-9','0','Holy Academy','','','18',0,0,'6.8','1.7','2.6','0.8','0.8','JDelmundo','-1',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (339,'Rhys Dela Cruz','33','SF','6-10','0','Ghoudi Stat Island','','','19',2,0,'13.8','9.3','4.6','0.6','1.9','CARLOcruz',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (340,'Carlo Aguilar','1','SF','6-6','0','Aquinas University','','','22',2,0,'9.2','10.4','9.9','1.8','3.3','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
-(341,'Chris Newsome','11','PF','6-11','12','Ateneo University','','','10',0,0,'12.5','9.7','4.1','1.5','1.6','CNewsome','3',NULL,NULL,NULL,NULL,4,NULL,'0',0),
+(341,'Chris Newsome','11','PF','6-11','19','Ateneo University','','','10',0,0,'12.5','9.7','4.1','1.5','1.6','CNewsome','3',NULL,NULL,NULL,NULL,4,NULL,'0',0),
 (342,'Josan Nimes','9','SF','6-9','0','Mapua Institute of Technology','','','10',2,0,'9.4','10.3','3.1','0.4','1.1','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (343,'Joeffer Gonzales','13','PF','6-10','0','Mapua Institute of Technology','','','18',0,0,'12.8','13.9','3.3','0.4','2.9','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (344,'Angelo Cunanan','23','SF','6-5','0','Miami Florida','','','18',2,0,'11.7','3.2','8.9','0.8','1.3','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
@@ -881,7 +889,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (379,'Jerome Zaballa','45','SF','6-6','26','Mapua Institute of Technology','','','8',0,0,'24.8','5.6','4.4','1.6','0.9','JZaballa','3',2016,1,12,NULL,3,'zaballa45','0',0),
 (380,'James Yang','18','SF','6-6','22','University of the East','','','8',1,0,'5.2','4.2','2.9','0.6','0.8','JYang','0',2016,19,31,NULL,NULL,NULL,'0',0),
 (381,'Kent Golangco','10','PG','6-1','0','St Jude','','','8',2,0,'9.7','7.4','7.7','0.7','2.8','',NULL,2016,13,7,NULL,NULL,NULL,'0',0),
-(382,'Harris Barbo','15','SG','6-6','19','HPSC','','','8',0,0,'24.6','4.4','6.7','1.8','0.4','HBarbo','2',2016,25,19,NULL,2,'harribarbo','0',0),
+(382,'Harris Barbo','15','SG','6-6','12','HPSC','','','8',0,0,'24.6','4.4','6.7','1.8','0.4','HBarbo','2',2016,25,19,NULL,2,'harribarbo','0',0),
 (383,'Mikko Ondillo','23','SF','6-7','0','HPSC','','','8',2,0,'12.4','10.3','4.4','1.2','2.4','',NULL,2016,2,28,NULL,NULL,NULL,'0',0),
 (384,'Milton Phoa','35','SG','6-3','11','CKSC','','','8',0,0,'12.6','6.4','1.8','0.5','0.0','MPhoa','1',2016,8,22,'Traded to San Antonio in A.Wong deal.',NULL,'milton4','0',0),
 (385,'Andrew Chiong','17','SF','6-7','11','PCSD','','','8',0,0,'10.6','9.0','6.4','1.1','0.8','AChiong','1',2016,14,11,NULL,NULL,NULL,'0',0),
@@ -894,7 +902,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (392,'Albert Fajarito','30','PG','6-2','30','NKI','','','8',1,0,'2.1','1.6','0.5','0.1','0.0','AFajarito','0',2016,27,14,NULL,NULL,NULL,'0',0),
 (393,'Lerry Cezar','30','C','6-11','7','ABS','','','8',0,0,'12.5','5.2','4.0','0.6','1.6','LCezar','1',2016,6,5,NULL,NULL,'lerryboi','0',0),
 (394,'John Teope','3','PF','6-9','28','CKSC','','','8',0,0,'9.6','2.1','2.6','0.3','1.0','JTeope','-1',2016,10,27,NULL,NULL,NULL,'0',0),
-(395,'Dan Ocampo','10','C','7-1','12','Mapua Institute of Technology','','','8',0,0,'15.3','11.5','1.6','0.9','1.9','DOcampo','3',2016,16,12,NULL,5,'dannyocampo','0',0),
+(395,'Dan Ocampo','10','C','7-1','19','Mapua Institute of Technology','','','8',0,0,'15.3','11.5','1.6','0.9','1.9','DOcampo','3',2016,16,12,NULL,5,'dannyocampo','0',0),
 (396,'JM Lagumen','0','SG','6-5','6','SBCA','','','8',1,0,'14.2','6.6','3.6','1.3','0.5','JLagumen','0',2016,9,30,NULL,NULL,'jmlagumen','0',0),
 (397,'Charles Reyes','20','SF','6-7','7','De Lasalle University','','','8',1,0,'4.2','3.4','4.4','1.5','0.7','CReyes','0',2016,18,6,NULL,NULL,NULL,'0',0),
 (398,'Shaun Chua','5','SG','6-4','30','SJHS','','','8',1,0,'8.3','2.9','2.5','0.6','0.9','ShaunChua','0',2016,23,3,'Traded to Philadelphia as it falls off Top-20.',NULL,NULL,'0',0),
@@ -986,7 +994,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (512,'Justine Tee','17','PG','6-3','19','De Lasalle University','','','6',0,0,'0.6','0.6','0.3','0.8','0.0','JTee','-1',2018,28,1,NULL,NULL,NULL,'0',0),
 (513,'Erwin Agustin','10','PG','6-0','28','SJU','','','6',0,0,'12.8','2.6','4.1','0.4','0.2','EAgustin','1',2018,12,28,NULL,NULL,NULL,'0',0),
 (514,'Durrel Angco','8','SG','6-5','12','Marikina University','','','6',0,0,'16.8','4.9','5.5','1.3','1.0','DAngco','3',2018,23,4,NULL,2,'durrell8','0',0),
-(515,'Jeff Laxa','43','PF','6-8','14','Antipolo State','','','6',1,0,'5.2','4.2','2.1','1.6','0.9','JLaxa','0',2018,10,31,NULL,NULL,'unkeru5','0',0),
+(515,'Jeff Laxa','43','PF','6-8','2','Antipolo State','','','6',0,0,'5.2','4.2','2.1','1.6','0.9','JLaxa','3',2018,10,NULL,NULL,NULL,'unkeru5','0',0),
 (516,'Hart Ang','5','SG','6-2','27','CKSC','','','6',1,0,'2.1','1.1','2.2','1.3','0.1','HAng','0',2018,16,31,NULL,NULL,NULL,'0',0),
 (517,'Mark See','5','PG','6-4','','NU','','','6',1,0,'5.2','1.6','2.9','0.5','0.4','MSee','-1',2018,25,8,NULL,NULL,NULL,'1',1),
 (518,'Melvin See','33','SG','6-5','0','NU','','','6',0,0,'9.1','5.2','6.2','2.6','1.3','',NULL,2018,25,8,NULL,NULL,NULL,'0',0),
@@ -1024,7 +1032,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (551,'Paco Puyat','15','C','6-11','9','AEDEFY',NULL,NULL,'5',0,NULL,'32.5','12.5','7.2','1.2','2.2','PPuyat','5',2019,1,6,NULL,5,'PuyatboyP','0',0),
 (552,'Eduardo Puyat','6','PF','6-10','29','AEDEFY',NULL,NULL,'5',0,NULL,'16.2','9.5','2.5','0.8','1.6','EPuyat','3',2019,8,13,NULL,0,'eduardoPuyat','0',0),
 (553,'Jayson Sio','7','PG','6-2','9','AEDEFY',NULL,NULL,'5',1,NULL,'10.2','2.5','1.6','0.8','0.1','JSio','0',2019,25,31,'Trade to Miami',NULL,'jaysonsio','0',0),
-(554,'Jason Anthony','3','PF','6-11','14','CEU',NULL,NULL,'5',1,NULL,'28.4','8.5','2.6','1.5','1.4','JAnthony','0',2019,26,24,NULL,4,'JLAO2','0',0),
+(554,'Jason Anthony','3','PF','6-11','14','CEU',NULL,NULL,'5',0,NULL,'28.4','8.5','2.6','1.5','1.4','JAnthony','1',2019,26,24,NULL,4,'JLAO2','0',0),
 (555,'Albert King','15','SG','6-5','17','Aquinas College',NULL,NULL,'5',1,NULL,'4.9','1.8','2.5','1.1','0.0','AKing','0',2019,17,17,NULL,NULL,'letKing','0',0),
 (556,'Jake Vincent','16','PF','6-9','14','Jubilee Academy',NULL,NULL,'5',0,NULL,'10.8','2.5','1.8','1.6','0.6','JVincent','2',2019,15,17,NULL,NULL,'SnakeVincent','0',0),
 (557,'Peter Que','12','PG','6-3','17','PCKHS',NULL,NULL,'5',1,NULL,'0.8','0.4','0.8','0.6','0.8','PQue','0',2019,99,8,NULL,NULL,'QuePeter','0',0),
@@ -1078,10 +1086,10 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (601,'Daniel Labordo','17','C','7-0','8','PCKHS',NULL,NULL,'4',1,0,'15.6','7.6','2.5','0.5','1.9','DANIELlabordo','0',2020,18,8,NULL,5,NULL,'0',0),
 (602,'Jason Yu','27','C','7-4','27','MENCIUS',NULL,NULL,'4',1,0,'12.7','8.8','2.0','0.2','1.1','JQue','0',2020,19,27,NULL,NULL,NULL,'0',0),
 (603,'John Kevin','21','SF','6-5','22','Canada',NULL,NULL,'4',0,0,'21.4','3.6','2.8','0.7','0.6','JKevin','4',2020,20,22,NULL,3,'JKevin','0',0),
-(604,'Daniel Go','5','C','6-8','9','AEDEFY',NULL,NULL,'4',1,0,'10.4','9.1','1.6','0.6','0.5','DGo','0',2020,21,9,NULL,NULL,NULL,'0',0),
+(604,'Daniel Go','5','C','6-8','5','AEDEFY',NULL,NULL,'4',0,0,'10.4','9.1','1.6','0.6','0.5','DGo','4',2020,21,9,NULL,NULL,NULL,'0',0),
 (605,'Oliver Nicdao','14','PF','6-9','21','Rebel High',NULL,NULL,'4',1,0,'6.5','2.6','2.0','0.4','0.9','ONicdao','0',2020,22,17,'Traded to Philadelphia.',0,NULL,'0',0),
 (606,'Rafael Castejon','14','SF','6-7','12','Spain',NULL,NULL,'4',1,0,'9.4','4.8','3.5','0.4','0.2','RAFAELcastejon','0',2020,23,23,NULL,3,NULL,'0',0),
-(607,'Ronan Charles','13','SF','6-7','2','Little Rock',NULL,NULL,'4',1,0,'12.5','7.3','3.2','1.3','0.6','RONANcharles','0',2020,24,16,'Traded to Milwaukee.',3,'ronanC','0',0),
+(607,'Ronan Charles','13','SF','6-7','2','Little Rock',NULL,NULL,'4',0,0,'12.5','7.3','3.2','1.3','0.6','RONANcharles','4',2020,24,16,'Traded to Milwaukee.',3,'ronanC','0',0),
 (608,'Michael Lua','17','PF','6-10','23','China',NULL,NULL,'4',1,0,'11.5','6.5','1.6','0.5','0.9','MICHAELlua','0',2020,25,7,NULL,4,'lualua','0',0),
 (609,'John Lester','20','SF','6-9','2','Arkansas',NULL,NULL,'4',1,0,'10.9','6.2','2.1','1.2','0.2','JOHNlester','0',2020,26,5,'Traded to Chicago in LaMelo Exum sign-and-trade.',NULL,'jles','0',0),
 (610,'Westley Ybuan','5','C','6-10','2','Arkansas',NULL,NULL,'4',0,0,'7.5','3.2','2.6','0.9','0.6','WestleyYbuan','4',2020,27,17,'Traded to Philadelphia for Argel Sio.',5,'wybuan','0',0),
