@@ -25,7 +25,9 @@ class TeamController extends Controller
     public function actionRoster($team_id)
     {
         $team = Team::findOne($team_id);
-        $roster = Roster::findAll(['team_id' => $team_id]);
+        // $roster = Roster::findAll(['team_id' => $team_id]);
+        $roster = Roster::find()->where(['team_id' => $team_id])->orderBy('roster.number')->all();
+
 
         return $this->render('roster', [
             'team' => $team,
