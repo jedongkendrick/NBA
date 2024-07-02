@@ -10,8 +10,10 @@ class NewsController extends Controller
 {
     public function actionIndex()
     {
+        $year = date("Y");
         // Fetch all news articles with joined teams and their logos
         $query = News::find()
+        ->where(['>', 'date_entered', $year.'-06-29 00:00:00'])
             ->joinWith('team')
             ->orderBy(['article.id' => SORT_DESC]);
 

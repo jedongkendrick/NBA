@@ -20,6 +20,7 @@ class ArticleController extends Controller
 
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             $model->date_entered = date('Y-m-d H:i:s');
+
             $model->save();
             return $this->redirect(['news/index', 'id' => $model->id]);
         }
@@ -33,16 +34,16 @@ class ArticleController extends Controller
 
     public function actionGetPlayers($teamId)
     {
-        // Fetch the players based on the selected team ID
-        $players = Roster::find()
-            ->select(['id', 'name'])
-            ->where(['team_id' => $teamId])
-            ->andWhere(['<>', 'retire', 1]) 
-            ->asArray()
-            ->all();
+      // Fetch the players based on the selected team ID
+      $players = Roster::find()
+        ->select(['id', 'name'])
+        ->where(['team_id' => $teamId])
+        ->andWhere(['<>', 'retire', 1]) // Exclude retired players (optional)
+        ->asArray()
+        ->all();
     
-        Yii::$app->response->format = Response::FORMAT_JSON;
-        return $players;
+      Yii::$app->response->format = Response::FORMAT_JSON;
+      return $players;
     }
     
 
@@ -57,7 +58,6 @@ class ArticleController extends Controller
         Yii::$app->response->format = Response::FORMAT_JSON;
         return $players;
     }
-
 
 
 

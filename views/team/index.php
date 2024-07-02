@@ -10,7 +10,7 @@ $this->params['breadcrumbs'][] = 'TEAM INDEX';
     <?php
     $teams = \app\models\Team::find()
         ->leftJoin('draft_order', 'teams.id = draft_order.team')
-        ->orderBy('draft_order.order')
+        ->orderBy('teams.name')
         ->all();
 
     $teamCount = count($teams);

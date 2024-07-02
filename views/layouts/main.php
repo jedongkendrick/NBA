@@ -67,6 +67,8 @@ $this->registerJs("
             ['label' => 'News & Rumors', 'url' => ['/news/index']],
             ['label' => 'Player List', 'url' => ['player/player-list']],
             ['label' => 'NBA DRAFT', 'url' => ['draft/index']],
+            ['label' => 'TITLE HISTORY', 'url' => ['title-history/index']],
+            ['label' => 'FINALS HISTORY', 'url' => ['finals-history/index']],
         ],
     ]);
     NavBar::end();

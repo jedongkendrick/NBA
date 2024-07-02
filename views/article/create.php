@@ -26,7 +26,7 @@ $(function() {
 
         // Make an AJAX request to fetch the roster data
         $.ajax({
-            url: '/article/get-players',
+            url: '/NBA/web/article/get-players',
             method: 'GET',
             data: { teamId: teamId },
             dataType: 'json',
@@ -60,9 +60,11 @@ $(function() {
        
         <?= $form->field($model, 'player_id')->dropDownList([], ['id' => 'article-player_id', 'prompt' => 'Select Team First']) ?>
 
-        <?= $form->field($model, 'type')->dropDownList(['Signing' => 'Signing', 'Update' => 'Update', 'Trade' => 'Trade', 'Release' => 'Release'], ['prompt' => 'Select Type']) ?>
+        <?= $form->field($model, 'type')->dropDownList(['Signing' => 'Signing', 'Update' => 'Update', 'Trade' => 'Trade', 'Release' => 'Release','Video'=>'Video'], ['prompt' => 'Select Type']) ?>
 
         <?= $form->field($model, 'story')->textarea(['rows' => 6]) ?>
+
+        <?= $form->field($model, 'video')->textInput() ?>
 
         <div class="form-group">
             <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

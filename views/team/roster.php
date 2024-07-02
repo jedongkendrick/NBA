@@ -28,7 +28,7 @@ $colorStyle = "background-color: " . Html::encode($team->color) . ";";
             if ($player->fa !== 1) {
                 ?>
                 <tr>
-                    <td style='font-weight:bold;'><?= Html::a(Html::encode($player->name), ['player/view', 'id' => $player->id], ['style' => 'text-decoration:none;']) ?></td>
+                    <td  class='player-row' style='font-weight:bold;'><?= Html::a(Html::encode($player->name), ['player/view', 'id' => $player->id], ['style' => 'text-decoration:none;']) ?></td>
                     <td style="text-align: center;"><?= Html::encode($player->position) ?></td>
                     <td style="text-align: center;"><?= Html::encode($player->number) ?></td>
                     <td style="text-align: center;"><?= Html::encode($player->height) ?></td>

@@ -216,10 +216,15 @@ text-align: center;
 }
 
 .article-logo{
-    width:7em;
+    width:4em;
 }
 
 .article-logo-NBA{
     width: 4em;
     margin-left: 2em;
+}
+
+
+.player-row:hover{
+    background-color:yellow!important;
 }
