@@ -1,25 +1,28 @@
 <?php
 
 namespace app\models;
+
 use yii\db\ActiveRecord;
 
-class TitleHistory extends ActiveRecord
+class Titlehistory extends ActiveRecord
 {
     public static function tableName()
     {
-        return 'titlehistory'; // Update table name
+        return 'titlehistory';
     }
 
-    public function getHistory()
+    public function attributes()
     {
-        return $this->hasMany(History::class, ['team_id' => 'id'])
-            ->select('COUNT(*) AS Championships')
-            ->groupBy('team_id')
-            ->one();
+        return [
+            'champ_count',
+            'logo',
+            'team_name', // Add team_name to attributes
+        ];
     }
 
-    public static function primaryKey()
+    public function getTeamName()
     {
-        return ['year']; // Assuming 'id' is the primary key column name in the 'teams' table
+        // Assuming a relation exists between Titlehistory and Teams
+        return $this->hasOne(Teams::className(), ['id' => 'team_id'])->name;
     }
 }
