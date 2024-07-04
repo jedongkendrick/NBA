@@ -68,7 +68,7 @@ $this->registerJs("
             ['label' => 'Player List', 'url' => ['player/player-list']],
             ['label' => 'NBA DRAFT', 'url' => ['draft/index']],
             ['label' => 'TITLE HISTORY', 'url' => ['title/index']],
-            ['label' => 'FINALS HISTORY', 'url' => ['finals-history/index']],
+            ['label' => 'OLYMPICS 2024', 'url' => ['olympics/index']],
         ],
     ]);
     NavBar::end();
