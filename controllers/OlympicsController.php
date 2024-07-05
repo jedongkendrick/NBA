@@ -17,7 +17,10 @@ class OlympicsController extends Controller
     }
 
     public function getUSATeam(){
-        $teams['USA'] = Roster::find()->where(['id' => '399'])->one(); 
+        $USA = [262, 244,493,451,459,467,460,494,400,238,10092,554];
+        foreach($USA as $key){
+            $teams['USA'][] = Roster::find()->where(['id' =>  ($key)])->one(); 
+        }
         return $teams;
     }
 }
