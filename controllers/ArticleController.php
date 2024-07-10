@@ -37,8 +37,7 @@ class ArticleController extends Controller
       // Fetch the players based on the selected team ID
       $players = Roster::find()
         ->select(['id', 'name'])
-        ->where(['team_id' => $teamId])
-        ->andWhere(['<>', 'retire', 1]) // Exclude retired players (optional)
+        ->Where(['<>', 'retire', 1]) // Exclude retired players (optional)
         ->asArray()
         ->all();
     
