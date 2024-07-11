@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\LinkPager;
+use yii\helpers\Url;
 
 // Assuming $newsArticles is an array of news article data fetched from the database
 ?>
@@ -43,9 +44,27 @@ use yii\widgets\LinkPager;
                     }
                 ?> 
                                 <br>
-                                <i style='font-size:15px;'><b><?= html::encode($news->team->name) ?></b>,</i>
+                                <i style='font-size:15px;'><b>
+                                <?= 
+                                    Html::a(
+                                    html::encode($news->team->name) ,
+                                    Url::to(['index', 'team_id' => $news->team_id]) ) ;
+                                ?>
+                                </b>,</i>
 
-                                <i style='font-size:15px;'><b><?= html::encode($news->type) ?></b></i>
+                                <i style='font-size:15px;'><b>    
+                                    <?= 
+                                    Html::a(
+                                    html::encode($news->type) ,
+                                    Url::to(['index', 'type' => $news->type]) ) ;
+                                ?></b></i>
+
+                                <i style='font-size:15px;'><b>    
+                                    <?= 
+                                    Html::a(
+                                    html::encode($news->type) ,
+                                    Url::to(['index', 'type' => $news->type]) ) ;
+                                ?></b></i>
 
             </td>
 
