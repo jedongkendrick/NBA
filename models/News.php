@@ -17,4 +17,10 @@ class News extends ActiveRecord
     {
         return $this->hasOne(Team::class, ['id' => 'team_id']);
     }
+
+    // Define the relationship with the Roster model (assuming player_id in News references id in Roster)
+    public function getRoster()
+    {
+        return $this->hasOne(Roster::class, ['id' => 'player_id']);
+    }
 }

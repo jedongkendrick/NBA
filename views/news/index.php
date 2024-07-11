@@ -44,27 +44,27 @@ use yii\helpers\Url;
                     }
                 ?> 
                                 <br>
-                                <i style='font-size:15px;'><b>
+                                <i style='font-size:15px;'>
                                 <?= 
                                     Html::a(
                                     html::encode($news->team->name) ,
-                                    Url::to(['index', 'team_id' => $news->team_id]) ) ;
+                                    Url::to(['index', 'team_id' => $news->team_id]),['style'=>'text-decoration:none;font-size:16px;'] ) ;
                                 ?>
-                                </b>,</i>
+                                ,</i>
 
-                                <i style='font-size:15px;'><b>    
+                                <i style='font-size:15px;'>    
                                     <?= 
                                     Html::a(
                                     html::encode($news->type) ,
-                                    Url::to(['index', 'type' => $news->type]) ) ;
-                                ?></b></i>
+                                    Url::to(['index', 'type' => $news->type]),['style'=>'text-decoration:none;font-size:16px;'] ) ;
+                                ?>,</i>
 
-                                <i style='font-size:15px;'><b>    
+                                <i style='font-size:15px;'>   
                                     <?= 
                                     Html::a(
-                                    html::encode($news->type) ,
-                                    Url::to(['index', 'type' => $news->type]) ) ;
-                                ?></b></i>
+                                    html::encode($news->roster->name) ,
+                                    Url::to(['index', 'player_id' => $news->player_id]),['style'=>'text-decoration:none;font-size:16px;'] ) ;
+                                ?></i>
 
             </td>
 

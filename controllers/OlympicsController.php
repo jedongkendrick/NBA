@@ -74,7 +74,7 @@ class OlympicsController extends Controller
                 $teams[5] = "JR Carreon";
                 $teams[6] = "D'Angelo Exum";
                 $teams[7] = "John Gregorio";
-                $teams[8] = "Miguel Locsin";
+                $teams[8] = "Sylvester Yu";
                 $teams[9] = "Jason Anthony";
                 $teams[10] = "John Bryant";
                 $teams[11] = "Jewel James";
@@ -107,11 +107,11 @@ class OlympicsController extends Controller
                 $teams[8] = "Billy Cajipo";
                 $teams[9] = "Renato Zorilla";
                 $teams[10] = "Ron Alocillo";
-                $teams[11] = "Dennis To";
+                $teams[11] = "Galilito Escallente";
                 $teams[12] = "William Cerin";
                 $teams[13] = "Frank Lato";
-                $teams[14] = "Paulo Kwok";
-                $teams[15] = "Rajesh Koothrapali";
+                $teams[14] = "Miguel Locsin";
+                $teams[15] = "Kiel Azucena";
                 break;
     
             case "China";
@@ -132,8 +132,8 @@ class OlympicsController extends Controller
             case "Puerto Rico";
                 $teams[4] = "Ivan Orpilla";
                 $teams[5] = "Jerome Ocampo";
-                $teams[6] = "Manu Ginobili";
-                $teams[7] = "Luis Scola";
+                $teams[6] = "Ram Saenz";
+                $teams[7] = "Kevin Baello";
                 $teams[8] = "Roy Cuevas";
                 $teams[9] = "Bon De Guzman";
                 $teams[10] = "Jeremiah Tomas";
@@ -153,7 +153,7 @@ class OlympicsController extends Controller
                 $teams[9] = "Darryl Sioson";
                 $teams[10] = "Evan Fournier";
                 $teams[11] = "Victor Wembanyama";
-                $teams[12] = "Ram Saenz";
+                $teams[12] = "Carlo Manso";
                 $teams[13] = "Ramon Lianko";
                 $teams[14] = "Rudy Gobert";
                 $teams[15] = "Caesar Gelbulingo";
