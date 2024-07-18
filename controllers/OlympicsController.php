@@ -179,11 +179,11 @@ class OlympicsController extends Controller
                 $teams[5] = "Jackson Chua";
                 $teams[6] = "John Patrick";
                 $teams[7] = "Eduardo Puyat";
-                $teams[8] = "Joseph Manego";
-                $teams[9] = "Joshua Manego";
+                $teams[8] = "Dillon Brooks";
+                $teams[9] = "Shai Gilgeous-Alexander";
                 $teams[10] = "Darryl Christian";
                 $teams[11] = "Juanito Gregorio";
-                $teams[12] = "Melvourne Manso";
+                $teams[12] = "Kelly Olynyk";
                 $teams[13] = "John Kevin";
                 $teams[14] = "Michael Seepersaud";
                 $teams[15] = "Brad Adrien";
@@ -191,7 +191,7 @@ class OlympicsController extends Controller
 
             case "Japan";
                 $teams[4] = "Lerry Cezar";
-                $teams[5] = "Yuta Watanabe";
+                $teams[5] = "Ron Lin";
                 $teams[6] = "Michael Lua";
                 $teams[7] = "Michael Gotauco";
                 $teams[8] = "Joj Yonezawa";
@@ -230,21 +230,21 @@ class OlympicsController extends Controller
                 $teams[11] = "Christian Standhardinger";
                 $teams[12] = "Dennis Schroder";
                 $teams[13] = "Daniel Theis";
-                $teams[14] = "Mo Wagner";
+                $teams[14] = "Dirk Nowitzki";
                 $teams[15] = "Franz Wagner";
                 break;
 
             case "Greece";
                 $teams[4] = "Giannis Antetokounmpo";
-                $teams[5] = "Thanasis Antetokounmpo";
+                $teams[5] = "Koustas Antetokounmpo";
                 $teams[6] = "Miguel Maske";
                 $teams[7] = "Aaron Estrella";
                 $teams[8] = "Alvin Tuyay";
-                $teams[9] = "Eulysses Dacera";
-                $teams[10] = "Raygen Fortaleza";
+                $teams[9] = "Vassilis Spanoulis";
+                $teams[10] = "Kostas Papanikolaou";
                 $teams[11] = "Son Yeh";
                 $teams[12] = "Donbilly Yeh";
-                $teams[13] = "Oliver Nicdao";
+                $teams[13] = "Georgios Papagiannis";
                 $teams[14] = "Jovanie Machado";
                 $teams[15] = "Ben Mbenga";
                 break;
