@@ -30,7 +30,7 @@ CREATE TABLE `article` (
   `title` varchar(150) DEFAULT NULL,
   `video` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=355 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=367 DEFAULT CHARSET=latin1;
 
 /*Data for the table `article` */
 
@@ -376,7 +376,19 @@ insert  into `article`(`id`,`team_id`,`player_id`,`story`,`type`,`date_entered`,
 (351,'5','522','Grant Ng has committed to a four-year deal with the Boston Celtics. The highly sought-after free agent faced a difficult decision between the Los Angeles Lakers and the Celtics. After averaging nearly 30 points per game with the Utah Jazz last season, Ng has opted to join the Celtics. Reports suggest that his Olympic teammate, Jeron Teng, may have influenced his decision. To accommodate Ng\'s lucrative contract, the Celtics will need to create additional salary cap space through potential trades or other financial maneuvers.','Signing','2024-07-28 15:26:57','Grant Ng has agreed on join the Boston Celtics',''),
 (352,'14','522','Despite being considered frontrunners to sign Grant Ng, the Los Angeles Lakers were unable to secure a deal with the star free agent. Reports indicate that Ng felt the Boston Celtics offered a more prominent role within their system, ultimately leading to his decision to join the franchise.','Update','2024-07-28 15:28:25','Lakers miss out on Grant Ng',''),
 (353,'5','396','The Boston Celtics have acquired a top-25 protected pick in the 2027 NBA Draft and cash considerations from the Portland Trail Blazers in exchange for guard JM Lagumen. With Lagumen\'s departure, the Celtics have created sufficient salary cap space to finalize a four-year, $80 million contract with free agent forward Grant Ng. Lagumen was owed $25 million over the next two seasons.','Trade','2024-07-28 15:32:22','Boston Celtics trades JM Lagumen; Makes Grant Ng signing official',''),
-(354,'5','522','The signing of Grant Ng was not facilitated through a sign-and-trade deal. The Boston Celtics still retain the trade exception acquired from the Kai Sotto trade, providing them with flexibility to potentially acquire a star-caliber player by trading assets such as Pebenito and Rian.','Update','2024-07-28 15:34:34','Boston could potentially add another star via trade','');
+(354,'5','522','The signing of Grant Ng was not facilitated through a sign-and-trade deal. The Boston Celtics still retain the trade exception acquired from the Kai Sotto trade, providing them with flexibility to potentially acquire a star-caliber player by trading assets such as Pebenito and Rian.','Update','2024-07-28 15:34:34','Boston could potentially add another star via trade',''),
+(355,'10','184','In a recent move, the Charlotte Hornets have released Mario Reyes. Last season, Reyes made his presence felt by averaging 15.4 points and 3.2 assists. Remarkably, despite entering his 11th season in the league, he remains a potent force on the offensive end.','Update','2024-07-29 14:31:01','Charlotte Hornets Part Ways with Mario Reyes',''),
+(356,'25','16','In a high-scoring showdown, Tsang Yang’s Chinese national team faced a formidable opponent—the United States—and the result was a staggering 165-134 victory for the USA. But it wasn’t just the scoreline that caught attention; Tsang Yang didn’t hold back in his post-game comments.\r\n\r\nHe criticized the perceived arrogance of the USA team, highlighting their three Olympic goals: leading by double digits in every win, ensuring everyone scores 10+ points, and recording at least 1 assist. And indeed, the USA has achieved a flawless 3-0 record, with all players consistently hitting that 10+ mark.\r\n\r\nTsang Yang minced no words: “They should be ashamed; they’re putting a disgrace to Olympic basketball. I hope someone beats them and puts some humility on their faces.” Strong words from a player who himself finished with an impressive 32 points in the loss.\r\n\r\nMeanwhile, Tsang’s brother, Liam Yang, sat out due to a back issue.','Update','2024-07-29 14:33:49','“Olympic Drama: Tsang Yang Takes Aim at Team USA',''),
+(357,'5','522','In a remarkable Olympic performance, Grant Ng etched his name in the record books by dropping an astounding 57 points—the highest individual score of the Games. His offensive prowess was nothing short of unstoppable. But alas, even Ng’s heroics couldn’t overcome the might of Team USA, as China ultimately fell to their opponents.','Update','2024-07-29 14:36:23','Grant Ng Lights Up the Scoreboard: Chinese Scoring Record',''),
+(358,'14','554','Jason Anthony, Team USA’s standout player, didn’t mince words when responding to Tsang Yang’s criticism. In his signature style, Anthony shot back, saying, “If you don’t want us to be like that, then maybe your team should do better.” Ouch! Clearly, he’s unapologetic about their goals and achievements.\r\n\r\nAnd let’s talk stats: Anthony’s not just talking the talk—he’s walking the walk. With two triple-doubles already under his belt in Team USA’s 3-0 start, he’s undoubtedly their driving force.','Update','2024-07-29 14:38:48','Olympic Rivalry Heats Up: Jason Anthony Fires Back',''),
+(359,'16','184','In a fascinating turn of events, Mario Reyes has become a hot topic among several NBA franchises. The Lakers, Mavericks, Spurs, Pacers, Timberwolves, and Bucks are all eyeing his talents. Reyes, however, seems to be in no hurry to make a decision. Instead, he’s taking some time off the court, enjoying the Olympic action in London. But reports seemingly has a hint that the Mavericks are at the top of his choice.','Update','2024-07-29 14:43:05','Mario Reyes Draws Interest from Multiple NBA Teams',''),
+(360,'11','505','In a strategic move, Rochan Niel has chosen to join the Utah Jazz on a multi-year contract. His previous stint with the Portland Trail Blazers saw him contribute an average of 8.2 points per game. Now, as the Jazz aim to rebuild, Niel believes this opportunity will allow him to showcase his talent.','Signing','2024-07-29 14:44:42','Rochan Niel Commits to Three-Year Deal with Utah Jazz',''),
+(361,'3','276','In a recent transaction, the Chicago Bulls have sent Jeff Elona packing to the Milwaukee Bucks. In return, they’ll receive cash considerations and a pick-swap opportunity in the 2026 draft.','Trade','2024-07-29 14:48:15','Chicago Bulls Trade Jeff Elona to Milwaukee Bucks for Cash and 2026 Pick-Swap',''),
+(362,'9','196','The Heat has agreed to sign Ed Aldea for two more years.  Last season, Aldea averaged 6.5 points and 3.2 assists per game—solid numbers for a seasoned pro. Now, he’s inked a 2-year, $6 million deal, committing to two more rounds on the hardwood. Let’s keep those courtside cheers coming','Signing','2024-07-29 14:53:49','Ed Aldea Returns to Miami',''),
+(363,'19','252','In a calculated maneuver, the Indiana Pacers secure Arvin Yu—a player whose impact extends beyond stats. His return comes with anticipation and scrutiny.\r\n\r\nLast season: 13.2 PPG, 38% from beyond the arc.\r\n\r\nFront office invests: 4 years, $50M. Beyond numbers, it’s strategic vision.','Signing','2024-07-29 14:56:24','Arvin Yu Returns to Pacers',''),
+(364,'14','582','The Los Angeles Lakers, having missed out on Grant Ng, now turn their gaze toward free agent forward Hanamichi Hachimura. Hachimura’s credentials are impressive: 22.1 points per game last season with the Knicks. But here’s the catch—the Lakers’ interest hinges on a mid-level exception (MLE) agreement.','Update','2024-07-29 14:59:09','Lakers Eyeing Hanamichi Hachimura',''),
+(365,'25','230','In a pivotal move, free agent Syrd Sy has committed to a one-year, $5 million deal with the Phoenix Suns. This marks his remarkable 20th season in the league. Last season, Syrd contributed 9.4 points and 4.3 rebounds per game, but his impact extends beyond the stat sheet. His defensive prowess remains formidable, and alongside Yang’s arrival, the Suns emerge as Western Conference contenders.','Signing','2024-07-29 15:01:40','Syrd Sy Returns to Phoenix Suns',''),
+(366,'14','610',' Lakers forward Westley Ybuan has been cleared for on-court activities. Ybuan suffered a lower back injury in the playoffs against the OKC Thunder and was out for the remainder of the season. Ybuan has been cleared for basketball drills and will be re-evaluated after 4-5 weeks. Ybuan averaged 10.2 points 9.4 rebounds and 5.4 assists for the Lakers last season.','Update','2024-07-29 15:06:14','Westley Ybuan has been cleared for on-court activities','');
 
 /*Table structure for table `draft_order` */
 
@@ -971,7 +983,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (181,'Bryan Marcos','44','C','7-0','2','Saint Lucy','','','17',1,0,'9.8','5.9','1.9','0.2','1.6','BMarcos','0',2007,NULL,16,NULL,NULL,NULL,'0',0),
 (182,'Michael Gotauco','78','SF','6-5','12','Tionglian China','','','11',0,0,'9.9','4.3','3.2','1.7','0.3','MGotauco','2',NULL,NULL,NULL,NULL,NULL,'MikG','0',0),
 (183,'Eulysses Dacera','30','SG','6-4','25','Broadway State','','','15',1,0,'2.5','1.3','1.1','0.1','0.0','EDacera','0',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
-(184,'Mario Reyes','11','PF','6-9','10','Duke University','','','14',0,0,'12.3','7.3','5.3','0.4','1.7','MReyes','1',NULL,NULL,NULL,NULL,4,'SuperMario','0',0),
+(184,'Mario Reyes','11','PF','6-9','10','Duke University','','','14',1,0,'12.3','7.3','5.3','0.4','1.7','MReyes','0',NULL,NULL,NULL,NULL,4,'SuperMario','0',0),
 (185,'Terrence Romeo','7','PG','6-4','6','Far Eastern University','','','12',1,0,'24.6','3.6','6.2','2.0','0.9','TRomeo','0',NULL,NULL,NULL,NULL,2,'Romeo7','0',0),
 (186,'Rommel Munez','2','PF','6-10','25','Texas University','','','20',1,0,'6.8','4.2','2.0','0.2','0.6','RMunez','0',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (187,'Chow Franco','33','PF','6-10','12','Sacramento High','','','16',1,0,'6.8','2.3','2.5','0.9','1.3','CFranco','0',NULL,NULL,NULL,NULL,NULL,'chowchow','0',0),
@@ -983,7 +995,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (193,'Ij Pebenito','27','SF','6-9','5','Mapua Institute of Technology','','','18',0,0,'10.2','6.2','4.2','0.9','0.8','IPebenito','1',2006,NULL,28,NULL,NULL,'IJP','0',0),
 (194,'Anjo Poblacion','8','PG','6-5','27','Army Academy','','','17',0,0,'12.2','2.3','3.1','1.8','0.5','APoblacion','1',NULL,NULL,NULL,NULL,0,'anjojo','0',0),
 (195,'Carlos Guerrero','1','PG','6-5','25','Saint Christian Academy','','','15',1,0,'15.2','7.2','5.2','1.8','1.0','CGuerrero','0',NULL,NULL,NULL,NULL,1,'losguerrero','0',1),
-(196,'Ed Aldea','2','PG','6-1','9','Miami','','','15',1,0,'6.2','4.2','2.1','0.1','0.2','EAldea','0',NULL,NULL,NULL,NULL,NULL,'eddyaldea','0',0),
+(196,'Ed Aldea','2','PG','6-1','9','Miami','','','15',0,0,'6.2','4.2','2.1','0.1','0.2','EAldea','2',NULL,NULL,9,NULL,NULL,'eddyaldea','0',0),
 (198,'Greg Slaughter','19','PF','7-1','27','Ateneo University','','','12',0,0,'19.2','9.4','1.2','1.4','1.4','GSlaughter','1',NULL,NULL,NULL,NULL,4,'slaughterMan','0',0),
 (199,'Aron Lat','32','PG','6-2','0','Lawson College','','','19',0,0,'4.2','0.6','1.6','1.8','0.5','ALat','-1',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (200,'Jeph Reyes','11','SG','6-4','2','Batangas College','','','11',0,0,'11.2','2.6','2.3','0.8','0.6','JephReyes','1',2014,NULL,NULL,NULL,NULL,'jephReyes','0',0),
@@ -1014,7 +1026,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (226,'Rupert Chan','34','SG','6-5','8','China','','','20',1,0,'6.2','2.5','5.9','0.5','0.3','RChan','0',NULL,NULL,NULL,NULL,0,NULL,'0',0),
 (227,'Luke Bernal','3','PG','6-6','17','Aliston','','','11',0,0,'15,2','5.1','2.7','1.2','0.6','LBernal','3',NULL,NULL,NULL,NULL,0,'lukeBernal13','0',0),
 (228,'Gino Li','0','PG','6-4','0','Grace Academy','','','11',2,0,'15.7','5.0','12.2','0.1','1.2','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
-(230,'Syrd Sy','3','PF','6-10','25','Detroit','','','19',1,0,'14.4','6.2','2.1','0.7','0.9','SSy','0',NULL,NULL,NULL,NULL,NULL,'syrdboi','0',0),
+(230,'Syrd Sy','3','PF','6-10','25','Detroit','','','19',0,0,'14.4','6.2','2.1','0.7','0.9','SSy','1',NULL,NULL,NULL,NULL,NULL,'syrdboi','0',0),
 (231,'Mike White','7','SG','6-9','4','Harrison','','','15',1,0,'14.7','5.5','4.2','0.8','1.1','MWhite','0',NULL,NULL,NULL,NULL,NULL,'mikeywhite','0',0),
 (232,'Ralph Jordan','15','SG','6-6','0','Saint Lucy','','','17',2,0,'12.0','4.4','8.7','2.9','1.0','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (233,'Philip Fulo','4','PG','6-0','0','Saint Lucy','','','16',0,0,'8.5','8.2','1.5','1.0','0.1','PFulo','-1',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
@@ -1036,7 +1048,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (249,'Norbert Torres','43','C','7-1','5','De Lasalle University','','','10',0,0,'10.8','7.4','1.1','1.2','2.1','NTorres','1',2015,20,13,NULL,NULL,'towerTorres','0',0),
 (250,'John Paul','14','PF','6-10','24','Southern State','','','10',0,0,'8.4','5.5','2.7','1.6','0.7','JPaul','3',2015,19,1,NULL,NULL,'JPLerit','0',0),
 (251,'Adolf Alvarez','17','SF','6-4','9','Middle Land','','','10',0,0,'13.2','4.2','2.6','1.1','0.2','AAlvarez','4',2015,23,17,NULL,3,'AAA','0',0),
-(252,'Arvin Yu','7','SF','6-10','19','University of St. Thomas','','','10',1,0,'16.6','10.5','2.5','0.9','1.5','AYu','0',2015,16,12,NULL,3,'arvinyu','0',0),
+(252,'Arvin Yu','7','SF','6-10','19','University of St. Thomas','','','10',0,0,'16.6','10.5','2.5','0.9','1.5','AYu','4',2015,16,12,NULL,3,'arvinyu','0',0),
 (253,'Dexter Ngo','4','SG','6-4','0','Chileans','','','10',2,0,'13.4','3.0','5.2','3.1','2.4','',NULL,2015,22,10,'Since pick is 20 and above, it will go to OKC.',NULL,NULL,'0',0),
 (254,'Joshua Tam','50','PG','6-3','12','Saint Mary','','','10',0,0,'9.6','1.8','1.5','0.3','0.2','JoshuaTam','1',2015,30,18,NULL,NULL,NULL,'0',0),
 (255,'Alvin Cabiling','12','PG','6-0','28','Helios State','','','10',1,0,'4.1','0.9','0.6','0.1','0.0','ACabiling','0',2015,9,28,NULL,NULL,'alvincabilbil','0',0),
@@ -1060,7 +1072,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (273,'Meejay Nadres','15','SG','6-4','10','UP University','','','15',1,0,'9.5','2.5','3.1','1.2','0.6','MNadres','0',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (274,'Mharpee Panday','99','PF','6-8','22','Mapua Institute of Technology','','','18',0,0,'3.2','1.6','2.8','0.5','0.5','MPanday','1',NULL,NULL,NULL,NULL,0,NULL,'0',0),
 (275,'Vince Rayos','11','SG','6-3','7','St. Mary High','','','18',1,0,'10.5','5.8','5.6','0.8','0.4','VRayos','0',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
-(276,'Jeffrey Elona','16','PF','6-11','3','North State','','','19',0,0,'2.2','1.9','0.6','0.5','0.9','JElona','1',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
+(276,'Jeffrey Elona','16','PF','6-11','2','North State','','','19',0,0,'2.2','1.9','0.6','0.5','0.9','JElona','1',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (277,'Renz Dura','19','SF','6-7','29','Recto State','','','12',0,0,'14.3','5.5','2.1','0.2','0.5','RDura','2',NULL,NULL,NULL,NULL,NULL,'renzDura','0',0),
 (278,'D\'Angelo Exum ','25','PG','6-4','29','Philippines','','','10',0,0,'29.1','5.5','6.2','2.6','0.8','DExum','3',2015,29,14,NULL,2,'dloX25','2',0),
 (279,'Victor Innocentes','50','C','6-11','27','Tagayren HU','','','18',1,0,'9.6','6.4','3.6','1.1','0.5','VInnocentes','0',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
@@ -1254,7 +1266,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (502,'Neil Ong','8','C','7-2','21','Las Vegas','','','7',1,0,'13.1','11.5','2.1','1.5','1.3','NOng','0',2018,24,11,NULL,NULL,NULL,'0',0),
 (503,'Brian Ang','8','SF','6-6','22','North East University','','','7',1,0,'7.4','3.2','4.2','1.8','1.3','BAng','0',2018,30,24,'Traded to Brooklyn.',NULL,NULL,'0',0),
 (504,'Manuel Buendia','52','SG','6-6','1','Ateneo De Manila University','','','7',1,0,'9.3','5.5','1.9','0.5','0.7','MBuendia','0',2018,14,12,NULL,NULL,NULL,'0',0),
-(505,'Rochan Niel','16','SG','6-1','28','LPU','','','7',1,0,'3.8','2.2','1.4','0.9','0.1','RMiel','0',2018,99,4,NULL,NULL,NULL,'0',0),
+(505,'Rochan Niel','16','SG','6-1','11','LPU','','','7',0,0,'3.8','2.2','1.4','0.9','0.1','RMiel','3',2018,99,4,NULL,NULL,NULL,'0',0),
 (506,'Warren Latoy','16','C','6-11','6','NPU','','','7',0,0,'24.5','7.3','6.2','0.9','1.6','WLatoy','3',2018,11,22,NULL,5,'latoy','0',0),
 (507,'Allen Tam','8','SF','6-7','17','Virginia State','','','7',0,0,'10.6','7.4','4.5','0.9','0.8','AllenTam','1',2018,17,9,NULL,NULL,NULL,'0',0),
 (508,'Ivan Orpilla','9','C','6-11','29','Eastwoods','','','7',0,0,'28.4','8.2','2.5','0.5','1.8','IOrpilla','1',2018,22,14,NULL,5,'koko9','0',0),
@@ -1357,7 +1369,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (602,'Jason Yu','27','C','7-4','11','MENCIUS',NULL,NULL,'5',0,0,'12.7','8.8','2.0','0.2','1.1','JQue','1',2020,19,27,NULL,NULL,NULL,'0',0),
 (603,'John Kevin','21','SF','6-5','7','Canada',NULL,NULL,'5',0,0,'21.4','3.6','2.8','0.7','0.6','JKevin','3',2020,20,22,NULL,3,'JKevin','0',0),
 (604,'Daniel Go','55','C','6-8','5','AEDEFY',NULL,NULL,'5',0,0,'10.4','9.1','1.6','0.6','0.5','DGo','3',2020,21,9,NULL,NULL,NULL,'0',0),
-(605,'Oliver Nicdao','14','PF','6-9','21','Rebel High',NULL,NULL,'5',1,0,'6.5','2.6','2.0','0.4','0.9','ONicdao','0',2020,22,17,'Traded to Philadelphia.',0,NULL,'0',0),
+(605,'Oliver Nicdao','14','PF','6-9','21','Rebel High',NULL,NULL,'5',0,0,'6.5','2.6','2.0','0.4','0.9','ONicdao','1',2020,22,17,'Traded to Philadelphia.',0,NULL,'0',0),
 (606,'Rafael Castejon','22','SF','6-7','17','Spain',NULL,NULL,'5',0,0,'9.4','4.8','3.5','0.4','0.2','RAFAELcastejon','1',2020,23,23,NULL,3,NULL,'0',0),
 (607,'Ronan Charles','13','SF','6-7','30','Little Rock',NULL,NULL,'5',0,0,'12.5','7.3','3.2','1.3','0.6','RONANcharles','3',2020,24,16,'Traded to Milwaukee.',3,'ronanC','0',0),
 (608,'Michael Lua','17','PF','6-10','12','China',NULL,NULL,'5',0,0,'11.5','6.5','1.6','0.5','0.9','MICHAELlua','1',2020,25,7,NULL,4,'lualua','0',0),
