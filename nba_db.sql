@@ -30,7 +30,7 @@ CREATE TABLE `article` (
   `title` varchar(150) DEFAULT NULL,
   `video` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=367 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=370 DEFAULT CHARSET=latin1;
 
 /*Data for the table `article` */
 
@@ -388,7 +388,10 @@ insert  into `article`(`id`,`team_id`,`player_id`,`story`,`type`,`date_entered`,
 (363,'19','252','In a calculated maneuver, the Indiana Pacers secure Arvin Yu—a player whose impact extends beyond stats. His return comes with anticipation and scrutiny.\r\n\r\nLast season: 13.2 PPG, 38% from beyond the arc.\r\n\r\nFront office invests: 4 years, $50M. Beyond numbers, it’s strategic vision.','Signing','2024-07-29 14:56:24','Arvin Yu Returns to Pacers',''),
 (364,'14','582','The Los Angeles Lakers, having missed out on Grant Ng, now turn their gaze toward free agent forward Hanamichi Hachimura. Hachimura’s credentials are impressive: 22.1 points per game last season with the Knicks. But here’s the catch—the Lakers’ interest hinges on a mid-level exception (MLE) agreement.','Update','2024-07-29 14:59:09','Lakers Eyeing Hanamichi Hachimura',''),
 (365,'25','230','In a pivotal move, free agent Syrd Sy has committed to a one-year, $5 million deal with the Phoenix Suns. This marks his remarkable 20th season in the league. Last season, Syrd contributed 9.4 points and 4.3 rebounds per game, but his impact extends beyond the stat sheet. His defensive prowess remains formidable, and alongside Yang’s arrival, the Suns emerge as Western Conference contenders.','Signing','2024-07-29 15:01:40','Syrd Sy Returns to Phoenix Suns',''),
-(366,'14','610',' Lakers forward Westley Ybuan has been cleared for on-court activities. Ybuan suffered a lower back injury in the playoffs against the OKC Thunder and was out for the remainder of the season. Ybuan has been cleared for basketball drills and will be re-evaluated after 4-5 weeks. Ybuan averaged 10.2 points 9.4 rebounds and 5.4 assists for the Lakers last season.','Update','2024-07-29 15:06:14','Westley Ybuan has been cleared for on-court activities','');
+(366,'14','610',' Lakers forward Westley Ybuan has been cleared for on-court activities. Ybuan suffered a lower back injury in the playoffs against the OKC Thunder and was out for the remainder of the season. Ybuan has been cleared for basketball drills and will be re-evaluated after 4-5 weeks. Ybuan averaged 10.2 points 9.4 rebounds and 5.4 assists for the Lakers last season.','Update','2024-07-29 15:06:14','Westley Ybuan has been cleared for on-court activities',''),
+(367,'14','554','In a jaw-dropping display, Team USA dismantled Serbia with a staggering 204-150 victory. Jason Anthony’s triple-double performance—stellar once more—anchors a roster where every player hits double digits. ','Update','2024-08-01 15:00:26','Team USA dominates Serbia',''),
+(368,'1','160','free agent forward Anton Gregorio has committed to a two-year deal with the Philadelphia 76ers. The contract, valued at approximately $18 million.','Signing','2024-08-01 15:45:58','Anton Gregorio Joins 76ers',''),
+(369,'16','184','Mario Reyes, the skilled basketball player, has recently inked a one-year contract with the Dallas Mavericks. This deal comes after his buyout from the Charlotte Hornets. Notably, Reyes had an impressive performance last season, averaging 15.4 points and 3.2 assists during his time with Charlotte.','Signing','2024-08-01 15:49:34','Mario Reyes is now a Maverick on a one-year deal','');
 
 /*Table structure for table `draft_order` */
 
@@ -959,7 +962,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (157,'Buboy Carcellar','2','PG','6-5','0','Xavier University','','','11',0,0,'8.7','8.8','5.9','0.9','2.1','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (158,'John Wang','17','PG','6-4','0','Xavier University','','','17',0,0,'25.8','7.2','9.3','1.2','0.9','JWang','-1',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (159,'Kyles Law','15','PG','6-5','7','University of the State','','','12',0,0,'25.2','6.3','5.9','1.4','0.6','KLaw','2',NULL,NULL,NULL,NULL,1,'KylesLaw','0',0),
-(160,'Anton Gregorio','9','PF','6-8','6','Saint Lucy','','','13',1,0,'15.2','7.2','3.6','1.6','0.5','AGregorio','0',NULL,NULL,NULL,NULL,4,'GregoryTon','0',0),
+(160,'Anton Gregorio','9','PF','6-8','1','Saint Lucy','','','13',0,0,'15.2','7.2','3.6','1.6','0.5','AGregorio','2',NULL,NULL,NULL,NULL,4,'GregoryTon','0',0),
 (161,'Kobe Paras','8','PF','6-10','15','Philippines','','','11',0,0,'13.4','10.9','5.6','1.1','1.3','KParas','3',NULL,NULL,NULL,NULL,4,'kobeparas','0',0),
 (162,'Ramon Alejo','00','C','6-11','25','Montgomery','','','15',0,0,'15.4','7.8','2.2','1.5','1.3','RAlejo','1',2009,NULL,7,NULL,5,'ramolejo','0',0),
 (163,'Jeff Wells','4','PG','6-1','8','University of St Thomas','','','12',0,0,'19.2','4.2','4.1','1.2','0.7','JeffWells','1',NULL,NULL,NULL,NULL,1,'jeffyWells','0',0),
@@ -983,7 +986,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (181,'Bryan Marcos','44','C','7-0','2','Saint Lucy','','','17',1,0,'9.8','5.9','1.9','0.2','1.6','BMarcos','0',2007,NULL,16,NULL,NULL,NULL,'0',0),
 (182,'Michael Gotauco','78','SF','6-5','12','Tionglian China','','','11',0,0,'9.9','4.3','3.2','1.7','0.3','MGotauco','2',NULL,NULL,NULL,NULL,NULL,'MikG','0',0),
 (183,'Eulysses Dacera','30','SG','6-4','25','Broadway State','','','15',1,0,'2.5','1.3','1.1','0.1','0.0','EDacera','0',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
-(184,'Mario Reyes','11','PF','6-9','10','Duke University','','','14',1,0,'12.3','7.3','5.3','0.4','1.7','MReyes','0',NULL,NULL,NULL,NULL,4,'SuperMario','0',0),
+(184,'Mario Reyes','11','PF','6-9','16','Duke University','','','14',0,0,'12.3','7.3','5.3','0.4','1.7','MReyes','1',NULL,NULL,NULL,NULL,4,'SuperMario','0',0),
 (185,'Terrence Romeo','7','PG','6-4','6','Far Eastern University','','','12',1,0,'24.6','3.6','6.2','2.0','0.9','TRomeo','0',NULL,NULL,NULL,NULL,2,'Romeo7','0',0),
 (186,'Rommel Munez','2','PF','6-10','25','Texas University','','','20',1,0,'6.8','4.2','2.0','0.2','0.6','RMunez','0',NULL,NULL,NULL,NULL,NULL,NULL,'0',0),
 (187,'Chow Franco','33','PF','6-10','12','Sacramento High','','','16',1,0,'6.8','2.3','2.5','0.9','1.3','CFranco','0',NULL,NULL,NULL,NULL,NULL,'chowchow','0',0),
