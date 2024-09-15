@@ -15,7 +15,7 @@ class Player extends ActiveRecord
 
     public function rules() {
         return [
-            [['name', 'number', 'position', 'height'], 'required'],
+            [['name', 'number'], 'required'],
             [['number', 'years', 'draft_year'], 'integer'],
             [['fa','retire'], 'boolean'],
             [['team_id', 'drafted_by', 'name', 'position', 'height', 'school', 'contract', 'draft'], 'string', 'max' => 255]
