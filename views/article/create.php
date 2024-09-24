@@ -3,7 +3,6 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\helpers\ArrayHelper;
-use yii\web\JsExpression;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Article */
@@ -14,38 +13,18 @@ $this->title = 'Create Article';
 $this->params['breadcrumbs'][] = ['label' => 'Articles', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 
-$this->registerJs("
-$(function() {
-    // When the team dropdown changes
-    $('#article-team_id').on('change', function() {
-        var teamId = $(this).val(); // Get the selected team ID
-        var playerDropdown = $('#article-player_id'); // The players dropdown
+// Assuming you have a function to fetch rosters based on team_id
+function getRostersByTeamId($teamId) {
+    // Replace with your actual logic to fetch rosters
+    // ...
+    return $rosters;
+}
 
-        // Clear the current options
-        playerDropdown.empty();
+// Populate the rosterList based on the selected team_id
+if ($model->team_id) {
+    $rosterList = getRostersByTeamId($model->team_id);
+}
 
-        // Make an AJAX request to fetch the roster data
-        $.ajax({
-            url: '/NBA/web/article/get-players',
-            method: 'GET',
-            data: { teamId: teamId },
-            dataType: 'json',
-            success: function(response) {
-                // Populate the players dropdown with the retrieved data
-                $.each(response, function(index, item) {
-                    playerDropdown.append($('<option>', {
-                        value: item.id,
-                        text: item.name
-                    }));
-                });
-            },
-            error: function(xhr, status, error) {
-                console.error(error);
-            }
-        });
-    });
-});
-");
 ?>
 
 <div class="article-create">
@@ -56,9 +35,9 @@ $(function() {
         <?php $form = ActiveForm::begin(); ?>
         <?= $form->field($model, 'title')->textInput() ?>
 
-        <?= $form->field($model, 'team_id')->dropDownList($teamList, ['prompt' => 'Select Team']) ?>
-       
-        <?= $form->field($model, 'player_id')->dropDownList([], ['id' => 'article-player_id', 'prompt' => 'Select Team First']) ?>
+        <?= $form->field($model, 'team_id')->dropDownList($teamList, ['prompt' => 'Select Team', 'onchange' => 'populatePlayerDropdown(this.value)']) ?>
+
+        <?= $form->field($model, 'player_id')->dropDownList($rosterList, ['id' => 'article-player_id', 'prompt' => 'Select Player']) ?>
 
         <?= $form->field($model, 'type')->dropDownList(['Signing' => 'Signing', 'Update' => 'Update', 'Trade' => 'Trade', 'Release' => 'Release','Video'=>'Video'], ['prompt' => 'Select Type']) ?>
 
@@ -74,3 +53,19 @@ $(function() {
 
     </div>
 </div>
+
+<script>
+function populatePlayerDropdown(teamId) {
+    // Make an AJAX request to fetch rosters based on the selected team_id
+    $.ajax({
+        url: '/article/get-rosters?team_id=' + teamId, // Replace with your actual URL
+        success: function(data) {
+            // Update the player dropdown options
+            $('#article-player_id').html('');
+            $.each(data, function(index, roster) {
+                $('#article-player_id').append('<option value="' + roster.id + '">' + roster.name + '</option>');
+            });
+        }
+    });
+}
+</script>

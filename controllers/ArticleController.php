@@ -32,17 +32,16 @@ class ArticleController extends Controller
         ]);
     }
 
-    public function actionGetPlayers($teamId)
+    public function actionGetPlayers()
     {
-      // Fetch the players based on the selected team ID
-      $players = Roster::find()
-        ->select(['id', 'name'])
-        ->Where(['<>', 'retire', 1]) // Exclude retired players (optional)
-        ->asArray()
-        ->all();
+        // Fetch all players
+        $players = Roster::find()
+            ->select(['id', 'name'])
+            ->asArray()
+            ->all();
     
-      Yii::$app->response->format = Response::FORMAT_JSON;
-      return $players;
+        Yii::$app->response->format = Response::FORMAT_JSON;
+        return $players;
     }
     
 
