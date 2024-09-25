@@ -60,9 +60,15 @@ $this->registerJs("
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
+            ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'Teams', 'url' => ['/team/index']],
             ['label' => 'Standings', 'url' => ['/team-standings/index']],
+            ['label' => 'Free Agency', 'url' => ['/free-agency/index']],
+            ['label' => 'News & Rumors', 'url' => ['/news/index']],
             ['label' => 'Player List', 'url' => ['player/player-list']],
+            ['label' => 'NBA DRAFT', 'url' => ['draft/index']],
+            ['label' => 'TITLE HISTORY', 'url' => ['title/index']],
+            ['label' => 'OLYMPICS 2024', 'url' => ['olympics/index']],
             ['label' => 'DRAFT', 'url' => ['draft/index']],
         ],
     ]);
