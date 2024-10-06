@@ -26,19 +26,39 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?= $form->field($model, 'number')->textInput() ?>
 
+    <?= $form->field($model, 'position')->dropDownList(
+        ['' => 'Select Position'] +
+        ['PG' => 'PG'] +
+        ['SG' => 'SG'] +
+        ['SF' => 'SF'] +
+        ['PF' => 'PF'] +
+        ['C' => 'C']
+    ) ?>
+
+    <?= $form->field($model, 'height')->textInput(['maxlength' => true]) ?>
+
     <?= $form->field($model, 'team_id')->dropDownList(
         ['' => 'Select Team'] +
         ['upcoming' => 'Upcoming'] +
         ArrayHelper::map($teams, 'id', 'name')
     ) ?>
 
-<?= $form->field($model, 'league')->dropDownList(
-        ['CBTL' => 'CBTL'] +
-        ['NBTC' => 'NBTC'] +
-        ['SUN' => 'SUN']
+    <?= $form->field($model, 'school')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'years')->textInput() ?>
+
+    <?= $form->field($model, 'fa')->checkbox() ?>
+
+    <?= $form->field($model, 'contract')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'draft_year')->textInput() ?>
+
+    <?= $form->field($model, 'draft')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'drafted_by')->dropDownList(
+        ['' => 'None'] + ArrayHelper::map($teams, 'id', 'name'),
+        ['prompt' => 'Select Team']
     ) ?>
-
-
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
