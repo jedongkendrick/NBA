@@ -30,7 +30,7 @@ CREATE TABLE `article` (
   `title` varchar(150) DEFAULT NULL,
   `video` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=381 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=383 DEFAULT CHARSET=latin1;
 
 /*Data for the table `article` */
 
@@ -401,7 +401,9 @@ insert  into `article`(`id`,`team_id`,`player_id`,`story`,`type`,`date_entered`,
 (375,'7','633','The Memphis Grizzlies have retained Miguel Verdadero, signing him to a new four-year contract. Verdadero contributed 13.4 points and 5.4 rebounds per game to the Grizzlies\' roster last season.','Signing','2024-09-22 12:27:51','Miguel Verdadero returns to Memphis on a new four-year deal.',''),
 (376,'16','50','The Dallas Mavericks have bolstered their roster with the signing of Donbilly Yeh to a two-year deal. Yeh, a veteran of 23 seasons, brings a wealth of experience to the team. Last season with the Miami Heat, he averaged 11.6 points per game while shooting 35% from three-point range. Despite his age, Yeh remains a reliable scorer and could be a valuable asset for the Mavericks as they aim for a strong season.','Signing','2024-09-22 12:31:15','The Dallas Mavericks has added Donbilly Yeh',''),
 (379,'16','276','The Dallas Mavericks have made a significant trade with the Milwaukee Bucks, acquiring Jeffrey Elona and Richard Yap in exchange for Victor Cardinez, Maverick Chua, and a future first-round pick that is top 15 protected. The Bucks are expected to waive Maverick Chua. This trade could have a major impact on both teams\' prospects for the upcoming season.','Trade','2024-09-22 12:53:31','Dallas Mavericks and Milwaukee Bucks complete four-player trade.',''),
-(380,'28','337','The Portland Trailblazers\' all-time great, Kenneth Zablan, has announced his retirement from the NBA after a remarkable 16-year career. Selected fourth overall in the 2008 draft, Zablan spent his entire career with the Blazers, becoming a fan favorite and a cornerstone of the team.\r\n\r\nZablan\'s first 10 seasons were nothing short of spectacular, averaging an impressive 21.4 points per game. However, injuries and setbacks began to take their toll, leading to a decline in his productivity. Despite this, Zablan remained fiercely loyal to the Blazers, turning down a lucrative offer from the Los Angeles Lakers in 2012 to stay with his beloved team.\r\n\r\nIn recognition of his unwavering commitment, the Blazers always ensured a roster spot for Zablan, even as his playing time decreased. \"Kenneth had a fantastic career for us and we are grateful for his contributions,\" said the Blazers\' general manager.\r\n\r\nZablan\'s retirement marks the end of an era for the Trailblazers. His legacy as a loyal and talented player will forever be etched in the hearts of fans and the history of the franchise.','Update','2024-09-22 13:09:36','Kenneth Zablan announces retirement from the NBA','');
+(380,'28','337','The Portland Trailblazers\' all-time great, Kenneth Zablan, has announced his retirement from the NBA after a remarkable 16-year career. Selected fourth overall in the 2008 draft, Zablan spent his entire career with the Blazers, becoming a fan favorite and a cornerstone of the team.\r\n\r\nZablan\'s first 10 seasons were nothing short of spectacular, averaging an impressive 21.4 points per game. However, injuries and setbacks began to take their toll, leading to a decline in his productivity. Despite this, Zablan remained fiercely loyal to the Blazers, turning down a lucrative offer from the Los Angeles Lakers in 2012 to stay with his beloved team.\r\n\r\nIn recognition of his unwavering commitment, the Blazers always ensured a roster spot for Zablan, even as his playing time decreased. \"Kenneth had a fantastic career for us and we are grateful for his contributions,\" said the Blazers\' general manager.\r\n\r\nZablan\'s retirement marks the end of an era for the Trailblazers. His legacy as a loyal and talented player will forever be etched in the hearts of fans and the history of the franchise.','Update','2024-09-22 13:09:36','Kenneth Zablan announces retirement from the NBA',''),
+(381,'13','599','The Los Angeles Lakers and the New York Knicks has agreed on a six-player deal that would send role players Westley Ybuan, Dennis To and Aaron Chuachong to the Knicks in exchange for Glean Yap, Adrian Benedict and Gari Acuna. The Lakers will also give the Knicks their draft pick for next year.','Trade','2024-10-07 13:00:30','The Knicks and Lakers complete a six-player deal.',''),
+(382,'14','76','The Lakers have also sent Miguel Llorca to the Dallas Mavericks while getting back big man Julian Cardenas. The bigman was drafted by the Lakers last year.','Trade','2024-10-07 13:07:27','The Lakers trade Miguel Llorca to the Mavericks in a separate trade.','');
 
 /*Table structure for table `draft_order` */
 
@@ -1236,7 +1238,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (458,'Japeth Aguilar','25','PF','6-11','15','Ateneo De Manila University','','','8',0,0,'15.3','9.0','4.7','1.4','1.3','JAguilar','1',2017,10,15,NULL,0,'japeth25','0',0),
 (459,'Miguel Locsin','14','PG','6-8','16','De Lasalle University','','','8',0,0,'24.9','7.3','8.2','1.9','1.8','MLocsin','2',2017,18,16,NULL,1,'miggylox','0',0),
 (460,'LaMelo Exum','0','SF','6-10','2','Mapua Institute of Technology','','','8',0,0,'36.4','12.4','8.5','1.8','2.5','LExum','1',2017,9,18,NULL,3,'MEL0X','0',0),
-(461,'Gari Acuna','30','SG','6-4','13','MIA','','','8',0,0,'14.4','3.6','4.4','1.3','0.5','GAcuna','3',2017,23,9,NULL,0,'acunaG','0',0),
+(461,'Gari Acuna','30','SG','6-4','14','MIA','','','8',0,0,'14.4','3.6','4.4','1.3','0.5','GAcuna','3',2017,23,9,NULL,0,'acunaG','0',0),
 (462,'Jonathan Keh','45','C','6-11','2','UST','','','8',0,0,'11.8','6.0','1.8','0.1','0.5','JKeh','1',2017,14,20,NULL,NULL,NULL,'0',0),
 (463,'Joshua Manego','18','SF','6-7','1','ACC','','','8',0,0,'12.8','7.8','4.8','1.6','1.2','JManego','2',2017,12,10,NULL,0,'ManegoMango','0',0),
 (464,'Carl Sy','8','SG','6-6','7','LSU','','','8',0,0,'10.5','4.9','1.1','1.1','0.3','CSy','1',2017,21,23,NULL,NULL,NULL,'0',0),
@@ -1335,7 +1337,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (559,'Carter Ortega','20','SF','6-9','11','El Pueblo State',NULL,NULL,'6',1,NULL,'4.7','1.5','1.8','0.8','0.7','COrtega','0',2019,99,29,NULL,NULL,NULL,'0',0),
 (560,'Jake Dia','3','SG','6-5','27','Rebel Sports',NULL,NULL,'6',1,NULL,'15.4','3.9','4.8','1.5','1.6','JakeDia','0',2019,19,29,NULL,2,'diaJake','0',0),
 (561,'Jarold Dia','2','PG','6-3','8','Rebel Sports',NULL,NULL,'6',0,NULL,'15.6','4.6','3.5','1.0','0.5','JDia','3',2019,9,27,NULL,NULL,'jaroldDia','0',0),
-(562,'Dennis To','00','SF','6-6','14','Memphis Tenesse',NULL,NULL,'6',0,NULL,'13.4','4.6','2.8','1.4','0.8','DTo','1',2019,16,2,NULL,0,'dennisTo','0',0),
+(562,'Dennis To','3','SF','6-6','13','Memphis Tenesse',NULL,NULL,'6',0,NULL,'13.4','4.6','2.8','1.4','0.8','DTo','1',2019,16,2,NULL,0,'dennisTo','0',0),
 (563,'Randy Antolin','10','PF','6-10','22','Chicago State',NULL,NULL,'6',1,NULL,'4.0','2.8','0.6','0.1','0.6','RAntolin','0',2019,99,23,NULL,NULL,NULL,'0',0),
 (564,'Benedict Buenaventuras','10','C','6-10','27','Marquette',NULL,NULL,'6',1,NULL,'6.7','4.4','0.6','0.8','0.4','BBuenaventura','0',2019,13,15,NULL,NULL,NULL,'0',0),
 (565,'Peter Tanhuy','14','PG','6-4','27','Tondo',NULL,NULL,'6',0,NULL,'1.6','0.6','0.4','0.8','0.0','PTanhuy','2',2019,99,1,NULL,0,NULL,'0',0),
@@ -1346,7 +1348,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (570,'Mark Culata','13','SF','6-4','6','Rebel Sports',NULL,NULL,'6',0,NULL,'7.5','2.1','2.3','0.5','0.6','MCulata','3',2019,22,5,NULL,NULL,NULL,'0',0),
 (571,'Mac Aromin','88','PG','6-1','22','ANGCON',NULL,NULL,'6',1,NULL,'12.1','2.5','3.6','1.3','0.2','MAromin','0',2019,21,22,NULL,NULL,NULL,'0',0),
 (572,'Ryan De Jesus','10','PG','6-1','14','Georgetown',NULL,NULL,'6',0,NULL,'21.2','4.4','5.1','1.3','0.3','RDejesus','2',2019,20,8,NULL,1,'RDJ3','0',0),
-(573,'Aaron Chuachong','15','PF','6-9','14','Canada',NULL,NULL,'6',0,NULL,'8.9','6.4','3.6','0.6','1.8','AChuachong','2',2019,23,2,NULL,NULL,'chuachongkee','0',0),
+(573,'Aaron Chuachong','9','PF','6-9','13','Canada',NULL,NULL,'6',0,NULL,'8.9','6.4','3.6','0.6','1.8','AChuachong','2',2019,23,2,NULL,NULL,'chuachongkee','0',0),
 (575,'Melvourne Manso','4','PF','6-10','30','UFC State',NULL,NULL,'6',0,NULL,'6.5','3.4','2.1','1.1','1.2','MManso','3',2019,24,9,NULL,NULL,'melvoro','0',0),
 (576,'Manuel Sypeng','66','SF','6-8','10','St Jude',NULL,NULL,'6',0,NULL,'11.2','7.5','1.1','0.0','0.2','MSypeng','1',2019,29,9,'Traded to Miami.',NULL,'sypeng','0',0),
 (577,'Louie Ramos','14','PF','6-10','6','PCKHS',NULL,NULL,'6',1,NULL,'14.2','4.3','3.1','0.5','1.1','LRamos','0',2019,28,1,'Traded to Hawks.',NULL,NULL,'0',0),
@@ -1376,7 +1378,7 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (596,'Charles Benson','8','SG','6-3','4','Chicago',NULL,NULL,'5',0,0,'16.6','2.5','3.6','1.2','0.7','CHARLESbenson','1',2020,13,3,NULL,NULL,'BensonC','0',0),
 (597,'Mark Panelo','2','PF','6-7','24','Mapua Institute of Technology',NULL,NULL,'5',0,0,'10.1','3.1','1.5','0.4','0.6','MPanelo','4',2020,14,12,NULL,NULL,'panpanelo','0',0),
 (598,'Kristoffer Styles','22','SF','6-8','21','LSU',NULL,NULL,'5',0,0,'19.8','4.5','3.5','1.6','1.2','Kstyles','3',2020,15,21,NULL,3,'KStyles','0',0),
-(599,'Adrian Benedict','99','PG','6-4','13','Texas',NULL,NULL,'5',0,0,'22.8','14.2','17.6','4.7','2.2','ADRIANbenedict','3',2020,16,13,NULL,1,'aids99','0',0),
+(599,'Adrian Benedict','9','PG','6-4','14','Texas',NULL,NULL,'5',0,0,'22.8','14.2','17.6','4.7','2.2','ADRIANbenedict','3',2020,16,13,NULL,1,'aids99','0',0),
 (600,'Ram Saenz','12','C','6-10','19','Hardboard University',NULL,NULL,'5',0,0,'10.1','8.2','4.2','0.6','1.1','RAMsaenz','2',2020,17,24,'Traded to Goldenstate.',5,'RamSaenz','0',0),
 (601,'Daniel Labordo','17','C','7-0','8','PCKHS',NULL,NULL,'5',0,0,'15.6','7.6','2.5','0.5','1.9','DANIELlabordo','3',2020,18,8,NULL,5,NULL,'0',0),
 (602,'Jason Yu','27','C','7-4','11','MENCIUS',NULL,NULL,'5',0,0,'12.7','8.8','2.0','0.2','1.1','JQue','1',2020,19,27,NULL,NULL,NULL,'0',0),
@@ -1387,8 +1389,8 @@ insert  into `roster`(`id`,`name`,`number`,`position`,`height`,`team_id`,`school
 (607,'Ronan Charles','31','SF','6-7','30','Little Rock',NULL,NULL,'5',0,0,'12.5','7.3','3.2','1.3','0.6','RONANcharles','3',2020,24,16,'Traded to Milwaukee.',3,'ronanC','0',0),
 (608,'Michael Lua','17','PF','6-10','12','China',NULL,NULL,'5',0,0,'11.5','6.5','1.6','0.5','0.9','MICHAELlua','1',2020,25,7,NULL,4,'lualua','0',0),
 (609,'John Lester','20','SF','6-9','30','Arkansas',NULL,NULL,'5',0,0,'10.9','6.2','2.1','1.2','0.2','JOHNlester','3',2020,26,5,'Traded to Chicago in LaMelo Exum sign-and-trade.',NULL,'jles','0',0),
-(610,'Westley Ybuan','5','C','6-10','14','Arkansas',NULL,NULL,'5',0,0,'7.5','3.2','2.6','0.9','0.6','WestleyYbuan','3',2020,27,17,'Traded to Philadelphia for Argel Sio.',5,'wybuan','0',0),
-(611,'Glenn Yap','11','C','7-2','13','China',NULL,NULL,'5',0,0,'9.5','7.6','1.5','0.5','1.9','GYap','3',2020,28,6,NULL,5,'glennyap','0',0),
+(610,'Westley Ybuan','7','C','6-10','13','Arkansas',NULL,NULL,'5',0,0,'7.5','3.2','2.6','0.9','0.6','WestleyYbuan','3',2020,27,17,'Traded to Philadelphia for Argel Sio.',5,'wybuan','0',0),
+(611,'Glenn Yap','11','C','7-2','14','China',NULL,NULL,'5',0,0,'9.5','7.6','1.5','0.5','1.9','GYap','3',2020,28,6,NULL,5,'glennyap','0',0),
 (612,'Danilo Tabangcura','31','C','6-11','16','Australia',NULL,NULL,'5',0,0,'4.5','2.5','1.3','0.0','0.5','DANILOtabangcura','2',2020,29,5,NULL,NULL,'dannyTee','0',0),
 (613,'Miguel Maske','5','SG','6-5','16','UP',NULL,NULL,'5',0,0,'8.5','2.1','4.5','0.6','0.2','MIGUELmaske','2',2020,30,14,NULL,0,'mmm','0',0),
 (622,'Thirdy Ravena','0','SG','6-7','13','Ateneo De Manila University',NULL,NULL,'4',0,NULL,'27.3','5.2','4.5','1.4','1.1','TRavena','4',2021,1,20,'Thirdy Ravena is the younger brother of Mavericks star Kieffer Ravena.',2,NULL,'0',0),
