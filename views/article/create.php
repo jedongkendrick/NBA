@@ -39,11 +39,13 @@ if ($model->team_id) {
 
         <?= $form->field($model, 'player_id')->dropDownList($rosterList, ['id' => 'article-player_id', 'prompt' => 'Select Player']) ?>
 
-        <?= $form->field($model, 'type')->dropDownList(['Signing' => 'Signing', 'Update' => 'Update', 'Trade' => 'Trade', 'Release' => 'Release','Video'=>'Video'], ['prompt' => 'Select Type']) ?>
+        <?= $form->field($model, 'type')->dropDownList(['Signing' => 'Signing', 'Update' => 'Update', 'Trade' => 'Trade', 'Release' => 'Release','Video'=>'Video','Headline'=>'Headline'], ['prompt' => 'Select Type']) ?>
 
         <?= $form->field($model, 'story')->textarea(['rows' => 6]) ?>
 
         <?= $form->field($model, 'video')->textInput() ?>
+
+        <?= $form->field($model,'headline_image')->textInput() ?>
 
         <div class="form-group">
             <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

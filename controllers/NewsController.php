@@ -16,8 +16,9 @@ class NewsController extends Controller
         $year = date("Y");
         // Fetch all news articles with joined teams and their logos
         $query = News::find()
-            ->where(['>', 'date_entered', $year.'-06-29 00:00:00'])
+            // ->where(['>', 'date_entered', $year.'-06-29 00:00:00'])
             ->joinWith('team')
+            ->andWhere(['!=', 'article.type', 'headline'])            
             ->innerJoinWith('roster', 'roster.player_id = article.player_id') // Inner join with roster table
             ->orderBy(['article.id' => SORT_DESC]);
 
@@ -35,7 +36,7 @@ class NewsController extends Controller
         }
         // Create a pagination object
         $pagination = new Pagination([
-            'defaultPageSize' => 10, // Set the number of items per page
+            'defaultPageSize' => 15, // Set the number of items per page
             'totalCount' => $query->count(),
         ]);
 

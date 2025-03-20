@@ -1,7 +1,12 @@
-<div style='float:left;'>
-    HEADLINE PICS
-</div>
+<?php
+use yii\db\Query;
+use yii\helpers\Html;
 
-<div style='float:right;'>
-    VIDEOS
-</div>
+
+
+
+
+
+
+
+?>

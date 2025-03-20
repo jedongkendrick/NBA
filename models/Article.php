@@ -17,7 +17,7 @@ class Article extends ActiveRecord
         return [
             [['story', 'type','title'], 'required'],
             [['team_id'], 'integer'],
-            [['story', 'type','team_id', 'player_id','video'], 'string'],
+            [['story', 'type','team_id', 'player_id','video','headline_image'], 'string'],
         ];
     }
 
@@ -29,7 +29,8 @@ class Article extends ActiveRecord
             'player_id' => 'Player',
             'story' => 'Story',
             'type' => 'Type',
-            'video'=> 'Video'
+            'video'=> 'Video',
+            'headline_image'=> 'Headline'
         ];
     }
 
