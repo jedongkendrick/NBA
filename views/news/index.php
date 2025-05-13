@@ -78,9 +78,16 @@ use yii\db\Query;
                                     }
                                 ?> 
                                 <i style='font-size:15px;'>
+                                    <?php
+                                        if($news->team_id == "99"){
+                                            $teamName="NBA";
+                                        } else{
+                                            $teamName = $news->team->name;
+                                        }
+                                    ?>
                                     <?= 
                                         Html::a(
-                                            html::encode($news->team->name) ,
+                                            html::encode($teamName) ,
                                             Url::to(['index', 'team_id' => $news->team_id]),['style'=>'text-decoration:none;font-size:16px;'] ) ;
                                     ?>
                                 </i>
@@ -93,9 +100,15 @@ use yii\db\Query;
                                     ?>,</i>
 
                                 <i style='font-size:15px;'>   
+                                    <?php
+                                    $rosterName="";
+                                        if(!empty($news->roster->name)){
+                                            $rosterName=$news->roster->name;
+                                        }
+                                    ?>
                                     <?= 
                                         Html::a(
-                                            html::encode($news->roster->name) ,
+                                            html::encode($rosterName) ,
                                             Url::to(['index', 'player_id' => $news->player_id]),['style'=>'text-decoration:none;font-size:16px;'] ) ;
                                     ?></i>
 

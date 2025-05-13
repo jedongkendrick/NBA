@@ -18,6 +18,8 @@ class ArticleController extends Controller
         $teamList = ArrayHelper::map(Team::find()->all(), 'id', 'name');
         $rosterList = ArrayHelper::map(Roster::find()->all(), 'id', 'name');
 
+        $teamList['99'] ="NBA";
+        $rosterList['']="NONE";
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             $model->date_entered = date('Y-m-d H:i:s');
 

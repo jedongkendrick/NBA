@@ -19,7 +19,7 @@ class NewsController extends Controller
             // ->where(['>', 'date_entered', $year.'-06-29 00:00:00'])
             ->joinWith('team')
             ->andWhere(['!=', 'article.type', 'headline'])            
-            ->innerJoinWith('roster', 'roster.player_id = article.player_id') // Inner join with roster table
+            ->leftJoin('roster', 'roster.id = article.player_id')
             ->orderBy(['article.id' => SORT_DESC]);
 
         // Add team_id filter only if it has a value
