@@ -19,7 +19,7 @@ use yii\db\Query;
                 ->from('article')
                 ->where(['type' => 'Headline'])
                 ->andWhere(['player_id'=>$playerId])
-                ->limit(10)
+                ->limit(14)
                 ->orderBy(['id' => SORT_DESC]); 
             }
             else{
@@ -27,7 +27,7 @@ use yii\db\Query;
                 ->select(['*'])
                 ->from('article')
                 ->where(['type' => 'Headline'])
-                ->limit(10)
+                ->limit(14)
                 ->orderBy(['id' => SORT_DESC]); 
             }
  
@@ -38,7 +38,7 @@ use yii\db\Query;
                 echo "<div style='padding-top:10px;float:left;position:relative; display:inline-block;width:700px;'>"; 
                 echo Html::img(Yii::$app->request->baseUrl . '/assets/images/headline-images/' . $article['headline_image'], ['style' => 'width: 100%;']); 
                 echo "<div style='position:absolute; bottom:0; left:0; width:100%; background-color:rgba(0, 0, 0, 0.5); padding: 10px; text-align:center;'>"; 
-                echo "<h4 style='color:white;text-align:left;'>{$article['title']}</h4><p style='color:white; margin:0;text-align:left;'>
+                echo "<h5 style='color:white;text-align:left;'>{$article['title']}</h5><p style='color:white; margin:0;text-align:left;'>
                 {$article['story']}</p>"; 
                 echo "</div>";
                 echo "</div>";

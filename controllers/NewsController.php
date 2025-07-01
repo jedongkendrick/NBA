@@ -36,7 +36,7 @@ class NewsController extends Controller
         }
         // Create a pagination object
         $pagination = new Pagination([
-            'defaultPageSize' => 15, // Set the number of items per page
+            'defaultPageSize' => 18, // Set the number of items per page
             'totalCount' => $query->count(),
         ]);
 

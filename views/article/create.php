@@ -37,7 +37,7 @@ if ($model->team_id) {
 
         <?= $form->field($model, 'team_id')->dropDownList($teamList, ['prompt' => 'Select Team', 'onchange' => 'populatePlayerDropdown(this.value)']) ?>
 
-        <?= $form->field($model, 'player_id')->dropDownList($rosterList, ['id' => 'article-player_id', 'prompt' => 'Select Player']) ?>
+        <?= $form->field($model, 'player_id')->dropDownList($rosterList, ['id' => 'article-player_id']) ?>
 
         <?= $form->field($model, 'type')->dropDownList(['Signing' => 'Signing', 'Update' => 'Update', 'Trade' => 'Trade', 'Release' => 'Release','Video'=>'Video','Headline'=>'Headline'], ['prompt' => 'Select Type']) ?>
 
